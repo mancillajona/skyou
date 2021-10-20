@@ -193,7 +193,7 @@
           height: max-content;
           a {
             text-decoration: none;
-            color: var(--color-neutral-10);
+            color: var(--color-neutral-06);
           }
         }
       }
