@@ -71,10 +71,6 @@
         <div class="simple-footer__legal__skyou-legend">
           <p>© SKYOU 2021. All rights reserved.</p>
         </div>
-        <div class="simple-footer__legal__skyou-links">
-          <p>Terms of Service</p>
-          <p>Privacy Policy</p>
-        </div>
       </section>
     </template>
   </simple-layout>
@@ -200,16 +196,14 @@
     }
     &__legal {
       display: grid;
-      grid-template-columns: 927px auto;
-      padding: var(--f-gutter) 0;
+      grid-template-columns: 1200px;
+      padding: var(--f-gutter);
       background-color: var(--color-neutral-02);
       justify-content: center;
       @include respond-to('<=l') {
-        grid-template-columns: 1fr auto;
-
+        grid-template-columns: 1fr;
         @include respond-to('<=m') {
-          grid-template-columns: 1fr;
-          padding: 0;
+          padding: var(--f-gutter-l) var(--f-gutter);
         }
       }
       p {
@@ -217,29 +211,11 @@
         color: var(--color-neutral-10);
       }
       &__skyou-legend {
-        display: grid;
-        align-content: center;
-        padding: var(--f-gutter); 
-        @include respond-to('<=m') {
-          justify-content: center;
-          padding: var(--f-gutter-l) var(--f-gutter); 
-        }
-      }
-      &__skyou-links {
-        display: grid;
-        grid-auto-flow: column;
-        align-content: center;
         padding: var(--f-gutter);
-        gap: var(--f-gutter-l);
         @include respond-to('<=m') {
-          justify-content: center;
-          grid-auto-flow: row;
-          padding: var(--f-gutter-l) var(--f-gutter); 
-          gap: var(--f-gutter);
-          p {
-            text-align: center;
-          }
-        }        
+          padding: 0;
+          text-align: center;
+        }
       }
     }
     .--flare {
