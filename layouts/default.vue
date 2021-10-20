@@ -2,7 +2,7 @@
   <simple-layout>
     <flui-header
         mode="full"
-        logo="logo.png"
+        logo="logo-horizontal.png"
         :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/"},{"title":"About Us","to":"/"},{"title":"Our Technology","to":"/"},{"title":"Our Services","to":"/"}]'
         :actions='[{"title":"","to":"/"},{"title":"","to":"/"}]'
     />
@@ -12,7 +12,7 @@
         <section class="simple-footer__content">
           <div class="simple-footer__content__info-skyou">
             <div class="simple-footer__content__skyou">
-              <img src="../assets/img/logo--white.png" alt="skyou">
+              <img src="../assets/img/logo-horizontal--white.png" alt="skyou">
               <div class="simple-footer__content__social-media">
                 <img src="../assets/img/icon-social-facebook.svg" alt="facebook">
                 <img src="../assets/img/icon-social-instagram.svg" alt="instagram">
@@ -21,7 +21,7 @@
             <div class="simple-footer__content__contact">
               <div class="simple-footer__content__contact__mail">
                 <img src="../assets/img/icon-mail.svg" alt="mail">
-                <p>pr@skyou.com</p>
+                <p>sales@skyou.com</p>
               </div>
               <div class="simple-footer__content__contact__phone">
                 <img src="../assets/img/icon-phone.svg" alt="telephone">
@@ -29,7 +29,7 @@
               </div>
               <div class="simple-footer__content__contact__location">
                 <img src="../assets/img/icon-location-address.svg" alt="location">
-                <p>4096 Piedmont Ave. #130 Oakland CA, 94611 United States</p>
+                <p>2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA</p>
               </div>                            
             </div>
           </div>
@@ -97,6 +97,9 @@
   .simple-footer {
     background-color: var(--color-neutral-01);
     padding: var(--f-gutter-xl) 0;
+    border-top: var(--f-gutter) solid;
+    border-image-slice: 1;
+    border-image-source: var(--color-gradient-90-deg);
     @include respond-to('<=m') {
       padding: 0;
     }
@@ -143,6 +146,7 @@
           gap: 10px;
           p {
             margin-bottom: 0;
+            line-height: var(--f-default-link-line-height);
           }
           @include respond-to('<=m') {
             grid-auto-flow: row;

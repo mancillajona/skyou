@@ -51,8 +51,8 @@ export default {
   // Adding Google font families: https://google-fonts.nuxtjs.org/options
   googleFonts: {
     families: {
-      Roboto: true,
-      'Comfortaa': [300, 400, 500,  600, 700],
+      Roboto: [300, 500],
+      'Comfortaa': [300, 400, 500, 600, 700],
     }
   }  
 }
