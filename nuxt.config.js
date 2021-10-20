@@ -40,7 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/google-fonts'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
