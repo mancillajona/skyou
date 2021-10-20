@@ -1,4 +1,8 @@
+@import "~@lkmx/flare/src/flare";
+@import "_color";
+@import "_text";
+
 :root {
-  --f-header-text-color: white;
-  --f-header-background-color: black;  
+  --f-header-text-color: var(--color-neutral-01);
+  --f-header-background-color: var(--color-gradient-02);  
 }
