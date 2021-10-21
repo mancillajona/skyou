@@ -3,7 +3,7 @@
     <flui-header
         mode="full"
         logo="logo-horizontal.png"
-        :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/"},{"title":"About Us","to":"/"},{"title":"Our Technology","to":"/"},{"title":"Our Services","to":"/"}]'
+        :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/"},{"title":"About Us","to":"/about-us"},{"title":"Our Technology","to":"/"},{"title":"Our Services","to":"/"},{"title":"Custom Sourcing","to":"/custom-sourcing"}]'
         :actions='[{"title":"","to":"/"},{"title":"","to":"/"}]'
     />
     <Nuxt />
@@ -51,18 +51,18 @@
           <div class="simple-footer__content__our-technology">
             <h4>Our Technology</h4>
             <div class="simple-footer__content__our-technology__links-container">
-              <nuxt-link to="/">3D Design Tool</nuxt-link>
-              <nuxt-link to="/">Inkjet Printing</nuxt-link>
-              <nuxt-link to="/">Cut/Sew</nuxt-link>            
+              <nuxt-link to="/3d-design-tool">3D Design Tool</nuxt-link>
+              <nuxt-link to="/inkjet-printing">Inkjet Printing</nuxt-link>
+              <nuxt-link to="/cut-sew">Cut/Sew</nuxt-link>            
               <nuxt-link to="/">Drop-Shipping</nuxt-link>              
             </div>
           </div>   
           <div class="simple-footer__content__our-services">
             <h4>Our Services</h4>
             <div class="simple-footer__content__our-services__links-container">
-              <nuxt-link to="/">Shopify App</nuxt-link>
-              <nuxt-link to="/">Full Package for Brands</nuxt-link>
-              <nuxt-link to="/">ASI/PPAI</nuxt-link>             
+              <nuxt-link to="/shopify-app">Shopify App</nuxt-link>
+              <nuxt-link to="/full-package-for-brands">Full Package for Brands</nuxt-link>
+              <nuxt-link to="/asi-ppai">ASI/PPAI</nuxt-link>             
             </div>
           </div>                 
         </section>
