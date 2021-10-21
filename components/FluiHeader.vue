@@ -115,7 +115,7 @@ export default {
   --flui-header-toggle-background-color-hover: var(--color-gradient-01);
   --flui-header-height: 100%;
   --flui-header-text-color: var(--f-header-text-color);
-  --flui-header-logo-width: 150px;
+  --flui-header-logo-width: 148px;
   --flui-navigation-background-color: var(--color-neutral-10);
 }
 
