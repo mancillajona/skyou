@@ -19,9 +19,9 @@
 
     <!-- Main navigation -->
     <nav class="flui-header__navigation" aria-label="main-navigation">
-      <a v-for="(nav, index) in mainNavigation" :key="index" :href="nav.to">
+      <nuxt-link :to="nav.to" v-for="(nav, index) in mainNavigation" :key="index">
         <slot name="headerMainNavigation">{{ nav.title }}</slot>
-      </a>
+      </nuxt-link>
     </nav>
 
     <!-- Actions -->
