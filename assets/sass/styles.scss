@@ -9,4 +9,7 @@
 
 body {
   background-color: var(--color-neutral-09);
+  &.fixed {
+    position: fixed;
+  }
 }
