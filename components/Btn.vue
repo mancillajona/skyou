@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="btn" :to="url" :class="[color]">
+  <nuxt-link class="btn" :to="url" :class="[type]">
     {{label}}
   </nuxt-link>
 </template>
@@ -11,10 +11,10 @@ export default {
       type: String,
       required: false,
     },
-    color: {
+    type: {
       type: String,
       required: false,
-      default: 'grey'
+      default: 'primary'
     },
     label: {
       type: String,
@@ -25,27 +25,50 @@ export default {
 </script>
 
 <style lang="scss">
+:root {
+  --color-primary-hover: #00A4E0;
+  --color-primary-disabled: #99E3FF;
+
+}
   .btn {
     padding: 11px var(--f-gutter);
     text-decoration: none;
     max-width: fit-content;
-    &.blue {
+    border-radius: 4px;
+
+    &.primary {
       background: var(--color-primary-cyan-process);
       color: var(--color-neutral-10);
-      border-radius: 4px;
       text-transform: capitalize;
 
       &:hover {
-        opacity: 80%;
+        background: var(--color-primary-hover);
       }
-      &:active {
-        filter: brightness(90%);
+      &:disabled {
+        background: var(--color-primary-disabled);
       }
     }
-    &.grey {
+    &.secondary {
       background: var(--color-neutral-08);
       color: var(--color-neutral-03);
-      border-radius: 4px;
+
+      &:hover {
+        color: var(--color-neutral-01);
+      }
+      &:disabled {
+        color: var(--color-neutral-06);
+      }
+    }
+    &.tertiary {
+      background: transparent;
+      color: var(--color-primary-cyan-process);
+
+      &:hover {
+        text-decoration-line: underline
+      }
+      &:disabled {
+        color: var(--color-primary-disabled);
+      }
     }
   }
 

@@ -27,7 +27,7 @@ description: Shopify App Page
 
 SKYOU offers a Shopify app through the Shopify marketplace for utilizing our manufacture on demand technology.  When you sell through Shopify you don’t have to carry any inventory, SKYOU produces each order as they are placed, and ships to your end customer on your behalf.  Creating amazing retail quality cut and sew products is simple, and inventory free, through the SKYOU app.
 
-<btn label="Install shopify app" color="blue" url=""/>
+<btn label="Install shopify app" type="primary" url=""/>
 
 </block>
 
@@ -244,7 +244,7 @@ Every SKYOU product is printed to a white roll of fabric using dyes, laser cut, 
 
 SKYOU is the only manufacture on demand company that also offers all over print cotton.  We’ve developed our premium fabrics from scratch, using our vast experience, and decade long relationships with our fabric mills.  We print on polyester, cotton, rayon, modal, tencel, vegan leather, and virtually any cellulose based fabric you can imagine.    
 
-<btn label="Learn more" color="grey" url=""/>
+<btn label="Learn more" type="secondary" url=""/>
 
 </block>
 
@@ -289,7 +289,7 @@ SKYOU is the only manufacture on demand company that also offers all over print 
 
 Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front, back, side, inside the neck, along the collar, inside the pocket, is all included in a simple single price.     
 
-<btn label="View our pricings" color="grey" url=""/>
+<btn label="View our pricings" type="secondary" url=""/>
 
 </block>
 
@@ -339,7 +339,7 @@ Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front,
 
 Each product is developed with a designer that has a deep history of designing for the category.  We go through extensive fit testing, and quality checks to ensure each product is the best it can be     
 
-<btn label="View our products" color="grey" url=""/>
+<btn label="View our products" type="tertiary" url=""/>
 
 </block>
 
@@ -359,7 +359,7 @@ Each product is developed with a designer that has a deep history of designing f
 
 ## Ready to get Started?
 
-<btn label="Install SKYOU App" color="blue" url=""/>
+<btn label="Install SKYOU App" type="primary" url=""/>
 
 </block>
 
