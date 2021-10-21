@@ -10,6 +10,9 @@
     padding-top: var(--column-space-l);
     padding-bottom: var(--column-space-l);
     background-color: var(--f-section-background-color);
+    h1 {
+      height: var(--heading-1-default-height);
+    }
   }
   &__selling {
     padding-top: var(--column-space-l);
@@ -37,6 +40,9 @@
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-background-color);
+      h2 {
+        height:var(--heading-2-default-height);
+      }
     }
     &--content {
       padding-top: var(--column-space-l);
