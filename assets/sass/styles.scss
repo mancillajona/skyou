@@ -1,10 +1,16 @@
 @import "~@lkmx/flare/src/flare";
 @import "_color";
 @import "_text";
+@import "_space";
+@import "./pages/shopify-app";
 
 :root {
   --f-header-text-color: var(--color-neutral-01);
   --f-header-background-color: var(--color-neutral-08);
+  --f-section-background-color: var(--color-neutral-09);
+  --f-section-content-background-color: var(--color-neutral-10);
+  --heading-1-default-height: 53px;
+  --heading-2-default-height: 41px;
 }
 
 body {
@@ -12,4 +18,10 @@ body {
   &.fixed {
     position: fixed;
   }
+}
+h1 {
+  height: var(--heading-1-default-height);
+}
+h2 {
+  height:var(--heading-2-default-height);
 }

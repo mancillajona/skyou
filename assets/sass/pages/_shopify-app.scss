@@ -1,0 +1,175 @@
+:root {
+  --shopify-app-heading-3-color: var()
+}
+
+.shopify-app {
+  overflow: hidden;
+}
+#shopify-app {
+  &__title {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    background-color: var(--f-section-background-color);
+  }
+  &__selling {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    background-color: var(--f-section-content-background-color);
+    h3 {
+      color: var(--color-neutral-03);
+    }
+    h3, p {
+      margin-bottom: 0;
+    }
+    &__info {
+      .content {
+        .box {
+          display: grid;
+          gap: var(--f-gutter);
+        }
+      }
+    }
+  }
+  &__how-it-works {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    &--title {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-background-color);
+    }
+    &--content {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+      p,h3 {
+        margin-bottom: 0;
+      }
+      .content {
+        .box {
+          display: grid;
+          gap: var(--f-gutter);
+          text-align: center;
+          h3:nth-of-type(1) {
+            color: var(--color-neutral-03);
+          }
+          @include respond-to("<=m") {
+            img {
+              display: block;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__deferentiators {
+    &--title {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-background-color);
+    }
+    &--sub-title {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+    }
+    &--video {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+    }
+    &--manufacturing {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+    }
+    &__content-video {
+      .content {
+        display: grid;
+        align-content: center;
+        .box {
+        }
+      }
+    }
+    &__description-manufacturing {
+      h3 {
+        color: var(--color-neutral-03);
+      }
+      strong {
+        font-weight: bolder;
+      }
+    }
+    &__images-manufacturing {
+      .content {
+        .box {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          justify-items: center;
+          align-items: center;
+          gap: var(--f-gutter);
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    &--print-tecnhologies {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+      h3 {
+        color: var(--color-neutral-03);
+      }    
+    }
+    &__info {
+      .content {
+        .box {
+          display: grid;
+          gap: var(--f-gutter);
+          h3 {
+            color: var(--color-neutral-03);
+          }
+          h3, p {
+            margin-bottom: 0;
+          } 
+        }
+      }
+    } 
+    &--pricing {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+      h3, p {
+        margin-bottom: 0;
+      } 
+    }
+    &--products {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--f-section-content-background-color);
+      h3, p {
+        margin-bottom: 0;
+      } 
+    }
+  }
+  &__get-started {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    .content {
+      .box {
+        display: grid;
+        gap: var(--column-space-xl);
+        justify-content: center;
+        h2 {
+          margin-bottom: 0;
+          text-align: center;
+        }
+        .btn {
+          justify-self: center;
+        }
+      }
+    }
+  }
+}

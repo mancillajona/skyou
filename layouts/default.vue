@@ -2,7 +2,7 @@
   <simple-layout>
     <flui-header
         mode="full"
-        logo="logo-horizontal.png"
+        logo="logo-horizontal--black.png"
         :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/"},{"title":"About Us","to":"/about-us"},{"title":"Our Technology","to":"/"},{"title":"Our Services","to":"/"},{"title":"Custom Sourcing","to":"/custom-sourcing"}]'
         :actions='[{"title":"","to":"/"},{"title":"","to":"/"}]'
     />
@@ -96,6 +96,7 @@
     border-top: var(--f-gutter) solid;
     border-image-slice: 1;
     border-image-source: var(--color-gradient-90-deg);
+    overflow: hidden;
     @include respond-to('<=m') {
       padding: 0;
     }
@@ -196,10 +197,10 @@
     }
     &__legal {
       display: grid;
-      grid-template-columns: 1200px;
+      /* grid-template-columns: 1200px; */
       padding: var(--f-gutter);
       background-color: var(--color-neutral-02);
-      justify-content: center;
+      /* justify-content: center; */
       @include respond-to('<=l') {
         grid-template-columns: 1fr;
         @include respond-to('<=m') {
@@ -226,7 +227,7 @@
         .box {
           padding: 0;
           @include respond-to('<=m') {
-            padding: 0 var(--f-gutter);
+            /* padding: 0 var(--f-gutter); */
           }
         }
       }
