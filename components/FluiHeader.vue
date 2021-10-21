@@ -84,12 +84,14 @@ export default {
       const navIsClosed = () => {
         navEl.classList.remove('navIsOpen');
         bodyEl.classList.remove('fixed');
+        headerEl.classList.remove('bg-transparent');
         this.isNavOpen = false;
       };
 
       if (this.isNavOpen) {
         navEl.classList.add('navIsOpen');
         bodyEl.classList.add('fixed');
+        headerEl.classList.add('bg-transparent');
         headerEl.style.setProperty(
           '--calcHeaderHeight',
           headerEl.offsetHeight + 'px'
@@ -138,7 +140,9 @@ export default {
   @include respond-to('<=m') {
     grid-template-columns: 100px 1fr;
   }
-
+  &.bg-transparent {
+    background-color: var(--color-neutral-10);
+  }
   &__toggle {
     display: none;
     margin: 0;
@@ -226,6 +230,7 @@ export default {
         width: 100%;
         height: calc(100vh - var(--calcHeaderHeight));
         background: var(--flui-navigation-background-color);
+        padding: var(--f-gutter) 0;
 
         &::-webkit-scrollbar {
           width: 0;
