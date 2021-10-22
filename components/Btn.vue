@@ -64,7 +64,8 @@ export default {
       color: var(--color-primary-cyan-process);
 
       &:hover {
-        text-decoration-line: underline
+        text-decoration-line: underline;
+        background: var(--color-neutral-08);
       }
       &:disabled {
         color: var(--color-primary-disabled);
