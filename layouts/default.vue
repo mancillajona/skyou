@@ -227,7 +227,7 @@
         .box {
           padding: 0;
           @include respond-to('<=m') {
-            /* padding: 0 var(--f-gutter); */
+            padding: 0 var(--f-gutter);
           }
         }
       }

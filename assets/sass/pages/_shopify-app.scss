@@ -197,6 +197,9 @@
           margin-bottom: 0;
           text-align: center;
           height: 41px;
+          @include respond-to("<=m") {
+            height: auto;
+          }
         }
         .btn {
           justify-self: center;
