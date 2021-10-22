@@ -3,7 +3,7 @@ title: shopify-app
 description: Shopify App Page
 ---
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__title">
+<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__title-page">
 
 # Shopify App
 
@@ -129,24 +129,11 @@ SKYOU offers a Shopify app through the Shopify marketplace for utilizing our man
 
 
 
+<columns mode="normal" number="2" number-m="1" number-s="1" id="shopify-app__deferentiators__video">
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators--sub-title">
+<block id="shopify-app__deferentiators__video--info">
 
 ### The world's best design tool in 3d!
-
-</columns>
-
-
-
-
-
-
-
-
-
-<columns mode="normal" number="2" number-m="1" number-s="1" id="shopify-app__deferentiators--video">
-
-<block id="shopify-app__deferentiators__content-video">
 
 SKYOU has developed and patented an industry leading browser based 3d design tool that is both simple and powerful.  The 3d design tool is an exact pixel to inch representation of what will be manufactured.  See exactly what your product will look like, in 3d, before it’s made
 
@@ -168,30 +155,29 @@ SKYOU has developed and patented an industry leading browser based 3d design too
 
 
 
+<columns mode="normal" number="2" number-m="1" number-s="1" id="shopify-app__deferentiators__manufacturing">
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators--sub-title">
+<block id="shopify-app__deferentiators__manufacturing--grid-images">
+
+![rectangle](./img/square-grid.png)
+
+![rectangle](./img/square-grid.png)
+
+![rectangle](./img/square-grid.png)
+
+![rectangle](./img/square-grid.png)
+
+</block>
+
+<block id="shopify-app__deferentiators__manufacturing--info">
 
 ### True cut and sew manufacturing
 
-</columns>
+#### Tired of decorating premade blanks, in a defined 10 x 10 print area?
 
+#### Want to deliver true retail quality to your customers?
 
-
-
-
-
-
-
-
-<columns mode="normal" number="2" number-m="1" number-s="1" id="shopify-app__deferentiators--manufacturing">
-
-<block id="shopify-app__deferentiators__description-manufacturing">
-
-### Tired of decorating premade blanks, in a defined 10 x 10 print area?
-
-### Want to deliver true retail quality to your customers?
-
-### Want to display your brand, and not Hanes or Bella?
+#### Want to display your brand, and not Hanes or Bella?
 
 **SKYOU is manufacturing on demand, NOT printing on demand.** Most POD vendors are printing onto a pre-made blank, whether it’s a tote bag, t-shirt, or hoodie.  These vendors buy a low quality blank, and then decorate it with a pigment based ink.  These inks wash poorly, have a plastic hand (on darks), and have a limited color gamut.
 
@@ -199,18 +185,6 @@ Every SKYOU product is printed to a white roll of fabric using dyes, laser cut, 
 
 </block>
 
-<block id="shopify-app__deferentiators__images-manufacturing">
-
-![rectangle](./img/square-grid.png)
-
-![rectangle](./img/square-grid.png)
-
-![rectangle](./img/square-grid.png)
-
-![rectangle](./img/square-grid.png)
-
-</block>
-
 </columns>
 
 
@@ -222,27 +196,13 @@ Every SKYOU product is printed to a white roll of fabric using dyes, laser cut, 
 
 
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators--sub-title">
+<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators__print-tecnhologies">
+
+<block id="shopify-app__deferentiators__print-tecnhologies--info">
 
 ### Industry leading print technologies
 
-</columns>
-
-
-
-
-
-
-
-
-
-<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators--print-tecnhologies">
-
-<block id="shopify-app__deferentiators__info">
-
-### While there are many companies that do all over print sublimation (ours included), 
-
-SKYOU is the only manufacture on demand company that also offers all over print cotton.  We’ve developed our premium fabrics from scratch, using our vast experience, and decade long relationships with our fabric mills.  We print on polyester, cotton, rayon, modal, tencel, vegan leather, and virtually any cellulose based fabric you can imagine.    
+While there are many companies that do all over print sublimation (ours included), SKYOU is the only manufacture on demand company that also offers all over print cotton.  We’ve developed our premium fabrics from scratch, using our vast experience, and decade long relationships with our fabric mills.  We print on polyester, cotton, rayon, modal, tencel, vegan leather, and virtually any cellulose based fabric you can imagine.    
 
 <btn label="Learn more" type="secondary" url=""/>
 
@@ -265,33 +225,7 @@ SKYOU is the only manufacture on demand company that also offers all over print 
 
 
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators--sub-title">
-
-### Pricing
-
-</columns>
-
-
-
-
-
-
-
-
-
-
-
-<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators--pricing">
-
-<block id="shopify-app__deferentiators__info">
-
-### Tired of paying an additional fee to print on the back or sleeve of a garment, or an additional print location on a bag?
-
-Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front, back, side, inside the neck, along the collar, inside the pocket, is all included in a simple single price.     
-
-<btn label="View our pricings" type="secondary" url=""/>
-
-</block>
+<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators__pricing">
 
 <block>
 
@@ -299,6 +233,18 @@ Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front,
 
 </block>
 
+<block id="shopify-app__deferentiators__pricing--info">
+
+### Pricing
+
+#### Tired of paying an additional fee to print on the back or sleeve of a garment, or an additional print location on a bag?
+
+Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front, back, side, inside the neck, along the collar, inside the pocket, is all included in a simple single price.     
+
+<btn label="View our pricings" type="secondary" url=""/>
+
+</block>
+
 </columns>
 
 
@@ -310,36 +256,23 @@ Those days are done, SKYOU has a single low price for printing ANYWHERE.  Front,
 
 
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators--sub-title">
+<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators__products">
+
+<block id="shopify-app__deferentiators__products--info">
 
 ### Products
 
-</columns>
+#### We develop all of our products from scratch.
 
+Each product is developed with a designer that has a deep history of designing for the category.  We go through extensive fit testing, and quality checks to ensure each product is the best it can be     
 
+<btn label="View our products" type="secondary" url=""/>
 
-
-
-
-
-
-
-
-<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__deferentiators--products">
+</block>
 
 <block>
 
 ![rectangle](./img/rectangle-4.png)
-
-</block>
-
-<block id="shopify-app__deferentiators__info">
-
-### We develop all of our products from scratch.
-
-Each product is developed with a designer that has a deep history of designing for the category.  We go through extensive fit testing, and quality checks to ensure each product is the best it can be     
-
-<btn label="View our products" type="tertiary" url=""/>
 
 </block>
 

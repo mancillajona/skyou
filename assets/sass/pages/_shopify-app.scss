@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 #shopify-app {
-  &__title {
+  &__title-page {
     padding-top: var(--column-space-l);
     padding-bottom: var(--column-space-l);
     background-color: var(--f-section-background-color);
@@ -74,90 +74,115 @@
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-background-color);
+      h2 {
+        height: 41px;
+      }
     }
-    &--sub-title {
+    &__video {
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-content-background-color);
+      &--info {
+        .content {
+          display: grid;
+          align-content: center;
+        }        
+      }
     }
-    &--video {
+    &__manufacturing {
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-content-background-color);
-    }
-    &--manufacturing {
-      padding-top: var(--column-space-l);
-      padding-bottom: var(--column-space-l);
-      background-color: var(--f-section-content-background-color);
-    }
-    &__content-video {
-      .content {
-        display: grid;
-        align-content: center;
-        .box {
+      &--info {
+        .content {
+          display: grid;
+          align-content: center;
+        }
+        h4 {
+          color: var(--color-neutral-03);
+        }
+        strong {
+          font-weight: bolder;
         }
       }
-    }
-    &__description-manufacturing {
-      h3 {
-        color: var(--color-neutral-03);
-      }
-      strong {
-        font-weight: bolder;
-      }
-    }
-    &__images-manufacturing {
-      .content {
-        .box {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          justify-items: center;
-          align-items: center;
-          gap: var(--f-gutter);
-          p {
-            margin-bottom: 0;
+      &--grid-images {
+        .content {
+          .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+            gap: var(--f-gutter);
+            p {
+              margin-bottom: 0;
+            }
           }
         }
       }
     }
-    &--print-tecnhologies {
+    &__print-tecnhologies {
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-l);
-      background-color: var(--f-section-content-background-color);
-      h3 {
-        color: var(--color-neutral-03);
-      }    
-    }
-    &__info {
-      .content {
-        .box {
+      background-color: var(--f-section-content-background-color);   
+      h3, p {
+        margin-bottom: 0;
+      } 
+      &--info {
+        .content {
           display: grid;
-          gap: var(--f-gutter);
-          h3 {
-            color: var(--color-neutral-03);
+          align-content: center;
+          .box {
+            display: grid;
+            gap: var(--f-gutter);
           }
-          h3, p {
-            margin-bottom: 0;
-          } 
         }
       }
-    } 
-    &--pricing {
-      padding-top: var(--column-space-l);
+    }
+    &__pricing {
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-content-background-color);
       h3, p {
         margin-bottom: 0;
       } 
+      &--info {
+        .content {
+          .box {
+            display: grid;
+            gap: var(--f-gutter);
+            h4 {
+              color: var(--color-neutral-03);
+            }
+            h3, h4, p {
+              margin-bottom: 0;
+            } 
+          }
+        }
+      }       
     }
-    &--products {
-      padding-top: var(--column-space-l);
+    &__products {
       padding-bottom: var(--column-space-l);
       background-color: var(--f-section-content-background-color);
-      h3, p {
+      h3, h4, p {
         margin-bottom: 0;
       } 
+      &--info {
+        .content {
+          .box {
+            display: grid;
+            gap: var(--f-gutter);
+            h4 {
+              color: var(--color-neutral-03);
+            }
+            h3, h4, p {
+              margin-bottom: 0;
+            } 
+            p {
+              width: 98%;
+            }
+          }
+        }
+      }       
     }
   }
   &__get-started {
@@ -171,6 +196,7 @@
         h2 {
           margin-bottom: 0;
           text-align: center;
+          height: 41px;
         }
         .btn {
           justify-self: center;
