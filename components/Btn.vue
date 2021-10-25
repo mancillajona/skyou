@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link class="btn" :to="url" :class="[type]">
+  <nuxt-link class="btn" :to="url" :class="[type, display]">
     {{label}}
   </nuxt-link>
 </template>
@@ -19,6 +19,10 @@ export default {
     label: {
       type: String,
       required: true,
+    },
+    display: {
+      type: String,
+      required: false,
     }
   }
 }
@@ -70,6 +74,10 @@ export default {
       &:disabled {
         color: var(--color-primary-disabled);
       }
+    }
+    &.full {
+      max-width: 100%;
+      text-align: center;
     }
   }
 
