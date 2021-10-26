@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@lkmx/flare/src/functions/_respond-to.scss";
   .card {
     &__content {
       display: grid;
@@ -35,6 +36,9 @@ export default {
       }
       &--description {
         height: 87px;
+        @include respond-to("<=m") {
+          height: auto;
+        }
       }
     }
   }
