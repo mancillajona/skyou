@@ -32,61 +32,61 @@ description: Category Page
 
 <block>
 
-<products-card title="Hoodie" url="/category" price="Starting at $9.99"/>
+<products-card title="Hoodie" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Crewneck" url="/category" price="Starting at $9.99"/>
+<products-card title="Crewneck" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Sweatshirt with zipper" url="/category" price="Starting at $9.99"/>
+<products-card title="Sweatshirt with zipper" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Long hooded sweatshirt" url="/category" price="Starting at $9.99"/>
+<products-card title="Long hooded sweatshirt" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Sweatshirt fastened with buttons" url="/category" price="Starting at $9.99"/>
+<products-card title="Sweatshirt fastened with buttons" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="V-neck sweatshirt" url="/category" price="Starting at $9.99"/>
+<products-card title="V-neck sweatshirt" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Crewneck" url="/category" price="Starting at $9.99"/>
+<products-card title="Crewneck" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Sweatshirt with zipper" url="/category" price="Starting at $9.99"/>
+<products-card title="Sweatshirt with zipper" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Sleeveless sweatshirt" url="/category" price="Starting at $9.99"/>
+<products-card title="Sleeveless sweatshirt" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
 <block>
 
-<products-card title="Sweatshirt fastened with buttons" url="/category" price="Starting at $9.99"/>
+<products-card title="Sweatshirt fastened with buttons" url="/single-product" price="Starting at $9.99"/>
 
 </block>
 
