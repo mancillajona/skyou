@@ -7,11 +7,9 @@ description: Full Package for Brands Page
 
 <block id="full-package-for-brands__hero__info">
 
-# Shopify App
+# Full Package for Brands
 
-### Sell through Shopify with no inventory page
-
-When you sell through Shopify you don’t have to carry any inventory, **SKYOU produces each order as they are placed**, and ships to your end customer on your behalf.
+SKYOU is a full package manufacturing partner for your brand. We manufacture for a variety of brands selling direct to consumer, or through wholesale channels.
 
 <btn url="">Install Shopify App</btn>
 
