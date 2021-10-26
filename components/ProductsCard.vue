@@ -1,7 +1,10 @@
 <template>
   <nuxt-link :to="url" class="products__card__content">
     <img :src="require(`../assets/img/product.png`)">
-    <h3>{{title}}</h3>
+    <div class="products__card__title-content">
+      <h3>{{title}}</h3>
+      <h4>{{price}}</h4>
+    </div>
   </nuxt-link>
 </template>
 
@@ -17,6 +20,10 @@ export default {
       requied: false,
     },
     url: {
+      type: String,
+      required: false,
+    },
+    price: {
       type: String,
       required: false,
     }
@@ -36,6 +43,14 @@ export default {
         p, h3 {
           margin-bottom: 0;
         }
+      }
+      &__title-content {
+        display: grid;
+        gap: 4px;
+         h4 {
+           color: var(--color-neutral-04);
+           margin-bottom: 0;
+         }
       }
     }
   }
