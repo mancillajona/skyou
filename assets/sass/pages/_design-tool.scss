@@ -8,8 +8,11 @@
         display: grid;
         align-content: center;
         .box {
+          display: grid;
+          gap: var(--f-gutter);
           h1, h3, p {
             color: var(--color-neutral-10);
+            margin-bottom: 0;
           }
           h1 {
             @include respond-to("<=m") {
