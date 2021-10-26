@@ -14,8 +14,7 @@
             <div class="simple-footer__content__skyou">
               <img src="../assets/img/logo-horizontal--white.png" alt="skyou">
               <div class="simple-footer__content__social-media">
-                <img src="../assets/img/icon-social-facebook.svg" alt="facebook">
-                <img src="../assets/img/icon-social-instagram.svg" alt="instagram">
+                <a href="https://www.youtube.com/user/SKyouvideos" target="_blank"><img src="../assets/img/icon-social-youtube.svg" alt="youtube"></a>
               </div>
             </div>
             <div class="simple-footer__content__contact">
