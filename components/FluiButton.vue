@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss">
 :root {
-  --flui-button-bg-color: var(--flui-color-blue-02);
+  --flui-button-bg-color: var(--color-neutral-10);
   --flui-button-bg-hover-color: var(--flui-color-black);
   --flui-button-text-color: var(--color-neutral-10);
 }
