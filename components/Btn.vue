@@ -1,6 +1,6 @@
 <template>
   <nuxt-link class="btn" :to="url" :class="[type, display]">
-    {{label}}
+    <slot></slot>
   </nuxt-link>
 </template>
 
