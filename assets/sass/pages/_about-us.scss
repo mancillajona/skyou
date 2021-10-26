@@ -1,0 +1,67 @@
+#about-us {
+  &__title {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    gap: var(--f-gutter);
+  }
+  &__description {
+    padding-top: var(--column-space-l);
+    padding-bottom: var(--column-space-l);
+    background-color: var(--color-neutral-10);
+  }
+  &__contact {
+    &__title {
+      padding-top: var(--column-space-l);
+      .content {
+        .box {
+          display: grid;
+          justify-content: center;
+          gap: 4px;
+          padding-bottom: var(--column-space-xl);
+          text-align: center;
+          h2, h4 {
+            margin-bottom: 0;
+          }
+          h2 {
+            color: var(--color-neutral-03);
+            height: 41px;
+            @include respond-to("<=m") {
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+    &__info {
+      padding-bottom: var(--column-space-l);
+      gap: var(--f-gutter);
+      @include respond-to("<=m") {
+        padding: var(--f-gutter);
+      }
+      .--flare-block {
+        padding-bottom: var(--f-gutter);
+        .content {
+          .box {
+            display: grid;
+            justify-content: center;
+            gap: 10px;
+            background-color: var(--color-neutral-10);
+            border-radius: 4px;
+            height: 100%;
+            // padding-top: 0;
+            p {
+              margin-bottom: 0;
+              text-align: center;
+              line-height: 18px;
+              height: fit-content;
+            }
+            img {
+              display: block;
+              margin: auto;
+            }
+          }
+        }        
+      }
+    }
+  }
+}
