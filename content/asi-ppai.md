@@ -155,7 +155,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/3d-design-tool" display="full">Learn more</btn>
 
 </block>
 
@@ -181,7 +181,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/inkjet-printing" display="full">Learn more</btn>
 
 </block>
 
@@ -195,7 +195,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Request a quote</btn>
+<btn type="secondary" url="/custom-sourcing" display="full">Request a quote</btn>
 
 </block>
 
