@@ -9,11 +9,13 @@
     <!-- Logo -->
     <div class="flui-header__logo-container">
       <slot name="headerLogo">
-        <img
-          class="flui-header__logo-container__img"
-          :src="require(`../assets/img/${logo}`)"
-          alt=""
-        />
+        <nuxt-link to="/">
+          <img
+            class="flui-header__logo-container__img"
+            :src="require(`../assets/img/${logo}`)"
+            alt=""
+          />
+        </nuxt-link>
       </slot>
     </div>
 
