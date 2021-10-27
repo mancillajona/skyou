@@ -27,6 +27,12 @@
               line-height: 40.8px;
             }
           }
+          .btn {
+            @include respond-to("<=s") {
+              max-width: 100%;
+              text-align: center;
+            }
+          }
         }
       }
     }
@@ -117,6 +123,11 @@
         }
         .btn {
           justify-self: center;
+          @include respond-to("<=s") {
+            justify-self: unset;
+            max-width: 100%;
+            text-align: center;
+          }
         }
       }
     }
