@@ -142,7 +142,7 @@ export default {
   }
 
   @include respond-to('<=m') {
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 1fr 170 1fr;
   }
   &.bg-transparent {
     background-color: var(--color-neutral-10);
@@ -156,7 +156,7 @@ export default {
       gap: var(--f-gutter);
       align-items: center;
       justify-content: center;
-      justify-items: center;
+      justify-items: start;
       grid-template-columns: 1fr;
       grid-auto-flow: row;
 
@@ -192,9 +192,6 @@ export default {
 
       @include respond-to('<=m') {
         width: 150px;
-        position: absolute;
-        left: 0;
-        right: 0;
         // top: var(--f-gutter);
         margin-left: auto;
         margin-right: auto;
@@ -216,11 +213,15 @@ export default {
       a {
         padding: 0 var(--f-gutter);
         height: 100%;
+        @include respond-to('<=m') {
+          width: 100%;
+          text-align: center;
+        }
       }
     }
     @include respond-to('<=m') {
       display: none;
-
+      align-content: start;
       &.navIsOpen {
         display: grid;
         gap: var(--f-gutter);
