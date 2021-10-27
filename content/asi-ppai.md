@@ -185,7 +185,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card">
 
 <card title="Custom Sourcing" subtitle="Can’t find the product your customer wants on ESP/SAGE? No worries. We have a full time sourcing team based at our Guangzhou factory to source nearly anything you can provide a sample or link for." />
 
@@ -199,7 +199,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card">
 
 <card title="Products" subtitle="We develop all of our products from scratch.
 We go through extensive fit testing, and quality checks to ensure each product is the best it can be." />
@@ -212,7 +212,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card__manufacturing">
 
 <card title="A wealth of manufacturing expertise" subtitle="We set up factories for Nike, Timberland, Reebok, and Adidas, licensing our order management software and teaching them how to make one off shoes and bags. " />
 

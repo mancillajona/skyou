@@ -135,6 +135,20 @@
         .box {
         }
       }
+      &__card {
+        .card {
+          &__content--description {
+            height: 144px;
+          }
+        }
+        &__manufacturing {
+          .card {
+            &__content--description {
+              height: auto;
+            }
+          }
+        }
+      }
     }
   }
   &__get-started {
