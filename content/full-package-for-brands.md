@@ -11,8 +11,6 @@ description: Full Package for Brands Page
 
 SKYOU is a full package manufacturing partner for your brand. We manufacture for a variety of brands selling direct to consumer, or through wholesale channels.
 
-<btn url="">Install Shopify App</btn>
-
 </block>
 
 <block id="full-package-for-brands__hero__image-content">
