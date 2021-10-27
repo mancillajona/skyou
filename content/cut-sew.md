@@ -3,8 +3,54 @@ title: cut-sew
 description: CCut/Sew Page
 ---
 
-<columns mode="full" number="2" number-m="1" number-s="1">
+<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="cut-sew__hero">
 
-### Cut/Sew
+<block id="cut-sew__hero__info">
+
+# Cut / Sew
+
+We use laser cutting for most short run production, especially when engineered artwork is required. Laser cutting uses an optical eye to read in pre marked pattern lines, and has great accuracy and consistency
+
+</block>
+
+<block id="cut-sew__hero__image-content">
+
+![backpack-image](./img/backpack-medium.png)
+
+</block>
+
+</columns>
+
+
+
+
+
+
+
+
+
+
+
+<columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="cut-sew__options">
+
+<block>
+
+## Laser Cutting
+
+![backpack-image](./img/backpack-medium.png)
+
+We use laser cutting for most short run production, especially when engineered artwork is required. Laser cutting uses an optical eye to read in pre marked pattern lines, and has great accuracy and consistency
+
+</block>
+
+<block>
+
+## Sewing
+
+![backpack-image](./img/backpack-medium.png)
+
+We have a wide variety of machines and can handle nearly any construction details you desire. Our staff is selected carefully for their skill and experience, and we personally have 20+ years of sewing experience. From sewing out of our USA factory to managing large scale sewing in Asia, our quality is first class.
+
+</block>
 
 </columns>
