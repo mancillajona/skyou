@@ -192,15 +192,16 @@ export default {
   --flui-slider-indicators-bg-color: var(--color-neutral-07);
   --flui-slider-indicators-bg-color-current: var(--color-neutral-10);
   --flui-slider-indicators-border-color: var(--color-neutral-10);
-  --flui-slider-indicators-border-color-hover: var(--color-neutral-05);
+  --flui-slider-indicators-border-color-hover: var(--color-neutral-07);
   --flui-slider-indicators-size: 10px;
   --flui-slider-indicators-position: absolute;
   --flui-slider-arrow-background: var(--color-neutral-10);
-  --flui-slider-arrow-background-hover: var(--color-neutral-05);
+  --flui-slider-arrow-background-hover: var(--color-neutral-07);
   --flui-slider-arrow-border-color: var(--color-neutral-03);
   --flui-slider-arrow-border-radius: 0;
   --flui-slider-arrow-chevron-color: var(--color-neutral-03);
   --flui-slider-background-border-radious: 50%;
+  --flui-slider-arrow-padding: 10px;
 }
 .flui-slider {
   position: relative;
@@ -239,9 +240,8 @@ export default {
         align-items: center;
         display: grid;
         background: var(--flui-slider-arrow-background);
-        border-color: var(--flui-slider-arrow-border-color);
         position: absolute;
-        padding: var(--f-gutter-s);
+        padding: var(--flui-slider-arrow-padding);
         top: 50%;
         bottom: 50%;
         margin-bottom: auto;
@@ -262,10 +262,9 @@ export default {
         align-items: center;
         display: grid;
         background: var(--flui-slider-arrow-background);
-        border-color: var(--flui-slider-arrow-border-color);
         border-radius: var(--flui-slider-arrow-border-radius);
         position: absolute;
-        padding: var(--f-gutter-s);
+        padding: var(--flui-slider-arrow-padding);
         top: 50%;
         bottom: 50%;
         right: var(--f-gutter);
@@ -309,7 +308,7 @@ export default {
       place-self: center;
       width: var(--flui-slider-indicators-size);
       height: var(--flui-slider-indicators-size);
-      background-color: var(--flui-slider-indicators-bg-color);
+      background-color: transparent;
       border: 2px solid var(--flui-slider-indicators-border-color);
       border-radius: var(--f-gutter);
       &:hover {
