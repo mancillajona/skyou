@@ -38,13 +38,12 @@ export default {
 <style lang="scss">
 :root {
   --flui-button-bg-color: var(--color-neutral-10);
-  --flui-button-bg-hover-color: var(--flui-color-black);
   --flui-button-text-color: var(--color-neutral-10);
+  --flui-button-padding: 10px;
 }
 .flui-button {
   background: var(--flui-button-bg-color);
-  border: 1px solid var(--flui-button-bg-color);
-  padding: var(--f-gutter-s) var(--f-gutter);
+  padding: var(--flui-button-padding);
   color: var(--flui-button-text-color);
   &:hover {
     background: var(--flui-button-bg-hover-color);
