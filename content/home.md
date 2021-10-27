@@ -229,7 +229,7 @@ Install the **free SKYOU app** through the Shopify marketplace and sell with **n
 
 <template v-slot:grid-btn>
 
-<btn type="primary" display="full" url="">Learn more</btn>
+<btn type="secondary" display="full" url="/shopify-app">Learn more</btn>
 
 </template>
 
@@ -257,7 +257,7 @@ Design your products using our **3D design tool** and **order in bulk for your b
 
 <template v-slot:grid-btn>
 
-<btn type="secondary" display="full" url="">Learn more</btn>
+<btn type="secondary" display="full" url="/full-package-for-brands">Learn more</btn>
 
 </template>
 
@@ -285,7 +285,7 @@ Download **high resolution renders** to share with your clients and **place your
 
 <template v-slot:grid-btn>
 
-<btn type="secondary" display="full" url="">Learn more</btn>
+<btn type="secondary" display="full" url="/asi-ppai">Learn more</btn>
 
 </template>
 
