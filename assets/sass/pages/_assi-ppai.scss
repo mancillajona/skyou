@@ -139,6 +139,9 @@
         .card {
           &__content--description {
             height: 144px;
+            @include respond-to("<=s") { 
+              height: auto;
+            }
           }
         }
         &__manufacturing {

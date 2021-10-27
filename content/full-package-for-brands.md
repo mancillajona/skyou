@@ -155,7 +155,7 @@ Development and production timelines are established, and the project begins.
 
 </block>
 
-<block>
+<block id="full-package-for-brands__deferentiators__content__card">
 
 <card title="Pricing" subtitle="SKYOU has a single low price for printing ANYWHERE. Front, back, side, inside the neck, along the collar, inside the pocket, is all included." />
 
@@ -167,7 +167,7 @@ Development and production timelines are established, and the project begins.
 
 </block>
 
-<block>
+<block id="full-package-for-brands__deferentiators__content__card">
 
 <card title="Products" subtitle="We develop all of our products from scratch.
 We go through extensive fit testing, and quality checks to ensure each product is the best it can be." />
@@ -180,7 +180,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 </block>
 
-<block>
+<block id="full-package-for-brands__deferentiators__content__card__manufacturing">
 
 <card title="A wealth of manufacturing expertise" subtitle="We set up factories for Nike, Timberland, Reebok, and Adidas, licensing our order management software and teaching them how to make one off shoes and bags. " />
 

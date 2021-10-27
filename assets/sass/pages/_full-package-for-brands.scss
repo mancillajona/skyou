@@ -96,6 +96,23 @@
         .box {
         }
       }
+      &__card {
+        .card {
+          &__content--description {
+            height: 144px;
+            @include respond-to("<=s") { 
+              height: auto;
+            }
+          }
+        }
+        &__manufacturing {
+          .card {
+            &__content--description {
+              height: auto;
+            }
+          }
+        }
+      }
     }
   }
   &__get-started {
@@ -118,13 +135,6 @@
         .btn {
           justify-self: center;
         }
-      }
-    }
-  }
-  .card {
-    &__content {
-      &--description:nth-of-type(6) {
-        height: auto;
       }
     }
   }
