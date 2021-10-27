@@ -37,7 +37,6 @@ export default {
       gap: var(--f-gutter);
       @include respond-to("<=m") {
         grid-template-columns: 1fr 10px 1fr;
-        gap: 0;
       }
     .side-1 {
       grid-column: 1 / 2;
@@ -67,6 +66,7 @@ export default {
         height: 10px;
         border-radius: 1px solid #C8CED0;
       }
+      height: 100%;
     }
   }
   &__grid {
