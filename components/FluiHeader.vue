@@ -121,10 +121,12 @@ export default {
 
 .flui-header {
   display: grid;
+  grid-template-columns: 240px 1fr 240px;
+  @include respond-to('<=l') {
+    grid-template-columns: 1fr auto 1fr;
+  }
   grid-auto-flow: column;
   align-items: center;
-  justify-items: start;
-  justify-content: space-between;
   z-index: 10;
   background: var(--flui-header-background-color);
   padding: 0;
@@ -177,7 +179,9 @@ export default {
     grid-auto-flow: row;
     height: 100%;
     padding: 10px 80px 10px 10px;
-
+    @include respond-to('<=l') {
+      padding: 10px;
+    }
     &__img {
       width: var(--flui-header-logo-width);
       height: 100%;
@@ -201,6 +205,11 @@ export default {
   }
 
   &__navigation {
+    display: grid;
+    align-content: center;
+    grid-auto-flow: column;
+    justify-content: center;
+    height: 100%;
     &:not(.actions) {
       a {
         padding: 0 var(--f-gutter);
