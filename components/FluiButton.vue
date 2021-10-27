@@ -40,6 +40,7 @@ export default {
   --flui-button-bg-color: var(--color-neutral-10);
   --flui-button-text-color: var(--color-neutral-10);
   --flui-button-padding: 10px;
+  --flui-button-bg-hover-color: var(--color-neutral-07);
 }
 .flui-button {
   background: var(--flui-button-bg-color);
@@ -47,7 +48,6 @@ export default {
   color: var(--flui-button-text-color);
   &:hover {
     background: var(--flui-button-bg-hover-color);
-    border: 1px solid var(--flui-button-bg-hover-color);
   } 
   &:focus {
     box-shadow: 0 0 0 2px var(--flui-button-text-color), 0 0 0px 3px var(--flui-button-bg-color);
