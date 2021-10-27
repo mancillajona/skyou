@@ -52,8 +52,7 @@
             <div class="simple-footer__content__our-technology__links-container">
               <nuxt-link to="/3d-design-tool">3D Design Tool</nuxt-link>
               <nuxt-link to="/inkjet-printing">Inkjet Printing</nuxt-link>
-              <nuxt-link to="/cut-sew">Cut/Sew</nuxt-link>            
-              <nuxt-link to="/">Drop-Shipping</nuxt-link>              
+              <nuxt-link to="/cut-sew">Cut/Sew</nuxt-link>                     
             </div>
           </div>   
           <div class="simple-footer__content__our-services">
