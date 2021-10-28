@@ -114,7 +114,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </div>
 
-<btn type="primary" url="">Request a quote</btn>
+<btn type="primary" url="/custom-sourcing">Request a quote</btn>
 
 </block>
 
