@@ -21,9 +21,10 @@
 
     <!-- Main navigation -->
     <nav :class="initMenu" class="flui-header__navigation" aria-label="main-navigation">
-      <nuxt-link :to="nav.to" v-for="(nav, index) in mainNavigation" :key="index">
+      <!-- <nuxt-link :to="nav.to" v-for="(nav, index) in mainNavigation" :key="index">
         <slot name="headerMainNavigation">{{ nav.title }}</slot>
-      </nuxt-link>
+      </nuxt-link> -->
+      <flui-header-nav></flui-header-nav>
     </nav>
 
     <!-- Actions -->
@@ -215,6 +216,7 @@ export default {
       a {
         padding: 0 var(--f-gutter);
         height: 100%;
+        padding: var(--f-gutter);
         @include respond-to('<=m') {
           width: 100%;
           text-align: center;

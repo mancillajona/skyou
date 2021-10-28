@@ -22,8 +22,8 @@
           >
             <path
               d="M6 9L12 15L18 9"
-              stroke="white"
-              stroke-width="2"
+              stroke="#121516"
+              stroke-width="1"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -56,48 +56,66 @@ export default {
     return {
       navItems: [
         {
-          title: "Nav simple",
+          title: "Home",
           to: "/",
         },
         {
-          title: "Nav dropdown 1",
+          title: "Products",
           to: "",
           dropDownList: [
             {
-              title: "Dropdown 1",
-              to: "/",
+              title: "Category",
+              to: "/category",
             },
             {
-              title: "Dropdown 2",
-              to: "/",
-            },
-            {
-              title: "Dropdown 3",
-              to: "/",
+              title: "Single Product",
+              to: "/single-product",
             },
           ],
         },
         {
-          title: "Nav dropdown 2",
+          title: "About Us",
+          to: "/about-us",
+        },
+        {
+          title: "Our Technology",
           to: "",
           dropDownList: [
             {
-              title: "How to get started?",
-              to: "/",
+              title: "3D Design Tool",
+              to: "/3d-design-tool",
             },
             {
-              title: "About Secret Contracts",
-              to: "/",
+              title: "Inkjet Printing",
+              to: "/inkjet-printing",
             },
             {
-              title: "Dropdown 3",
-              to: "/",
+              title: "Cut/Sew",
+              to: "/cyt-sew",
             },
           ],
         },
         {
-          title: "Nav simple 2",
-          to: "/",
+          title: "Our Services",
+          to: "",
+          dropDownList: [
+            {
+              title: "Shopify App",
+              to: "/shopify-app",
+            },
+            {
+              title: "Full Package for Brands",
+              to: "/full-package-for-brands",
+            },
+            {
+              title: "ASI/PPAI",
+              to: "/asi-ppai",
+            },
+          ],
+        },
+        {
+          title: "Custom Sourcing",
+          to: "/custom-sourcing",
         },
       ],
     };
@@ -166,31 +184,34 @@ export default {
 <style lang="scss">
 @import "@lkmx/flare/src/functions/_respond-to.scss";
 :root {
-  --flui-header-nav-background-color: black;
+  --flui-header-nav-background-color: var(--color-neutral-08);
   --flui-header-nav-height: 100%;
-  --flui-header-nav-top-anchor-text-color: white;
-  --flui-header-nav-top-anchor-background-color: green;
+  --flui-header-nav-top-anchor-text-color: var(--color-neutral-01);
+  --flui-header-nav-top-anchor-background-color: var(--color-neutral-07);
   --flui-header-nav-top-dropdown-top-position: var(--flui-header-nav-height);
-  --flui-header-nav-dropdown-background-color: white;
-  --flui-header-nav-dropdown-border-radius: var(--f-gutter-xs);
+  --flui-header-nav-dropdown-background-color: var(--color-neutral-10);
+  --flui-header-nav-dropdown-border-radius: 4px;
   --flui-header-nav-dropdown-zindex: 9;
-  --flui-header-nav-dropdown-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-  --flui-header-nav-dropdown-text-color: black;
+  --flui-header-nav-dropdown-box-shadow: 0px 8px 16px rgba(18, 21, 22, 0.12);
+  --flui-header-nav-dropdown-text-color: var(--color-neutral-03);
   --flui-header-nav-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 body {
   .flui-header-nav {
     display: grid;
-    background: var(--flui-header-nav-background-color);
+    background: transparent;
     height: var(--flui-header-nav-height);
     widows: 100%;
     @include respond-to("<=m") {
-      height: auto;
+      height: 100%;
+      background-color: var(--color-neutral-10);
+      width: 100%;
     }
     * {
       margin: 0;
       height: 100%;
+      text-decoration: none;
     }
     &__items {
       display: inline-grid;
@@ -198,7 +219,8 @@ body {
       padding-left: 0;
       @include respond-to("<=m") {
         grid-auto-flow: row;
-        gap: var(--f-gutter-xl);
+        gap: 0;
+        justify-content: center;
       }
       &__single-item {
         display: grid;
@@ -207,23 +229,26 @@ body {
         position: relative;
         @include respond-to("<=m") {
          width: 100%;
+         justify-content: center;
         }
         &__top-anchor {
           display: grid;
           grid-auto-flow: column;
           align-content: center;
           justify-content: center;
-          gap: var(--f-gutter-s);
+          gap: 4px;
           width: 100%;
           color: var(--flui-header-nav-top-anchor-text-color);
           text-align: center;
-          &:hover {
+          padding: 23px var(--f-gutter);
+          /* &:hover {
             background-color: var(
               --flui-header-nav-top-anchor-background-color
             );
-          }
+          } */
+          align-items: center;
           @include respond-to("<=m") {
-            justify-content: start;
+            justify-content: center;
             pointer-events: none;
             &:hover {
             background-color: transparent;
@@ -270,9 +295,17 @@ body {
               flex: auto;
               white-space: nowrap;
               color: var(--flui-header-nav-dropdown-text-color);
-              padding: var(--f-gutter-s) var(--f-gutter);
+              padding: var(--f-gutter);
+              border-radius: var(--flui-header-nav-dropdown-border-radius);
+              width: 196px;
               @include respond-to("<=m") {
-               color: inherit;       
+               color: inherit;     
+               justify-content: center;  
+               color: var(--color-neutral-03);
+              }
+              &:hover {
+                background-color: var(--color-neutral-09);
+                color: var(--color-neutral-01);
               }
             }
           }
