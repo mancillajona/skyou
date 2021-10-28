@@ -50,7 +50,7 @@ export default {
     background: var(--flui-button-bg-hover-color);
   } 
   &:focus {
-    box-shadow: 0 0 0 2px var(--flui-button-text-color), 0 0 0px 3px var(--flui-button-bg-color);
+    /* box-shadow: 0 0 0 2px var(--flui-button-text-color), 0 0 0px 3px var(--flui-button-bg-color); */
   }
   &:active {
     transform: translateY(1px);

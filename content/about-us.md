@@ -42,7 +42,7 @@ We have a large selection of standard apparel and accessories patterns, includin
 
 <columns mode="slim" number="1" number-m="1" number-s="1" id="about-us__contact__title">
 
-<block>
+<block id="contact-us">
 
 #### Want to know more?
 

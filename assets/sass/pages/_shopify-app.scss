@@ -27,6 +27,28 @@
               line-height: 40.8px;
             }
           }
+          p:nth-of-type(2) {
+            padding: 11px var(--f-gutter);
+            text-decoration: none;
+            max-width: fit-content;
+            border-radius: 4px;
+            background: var(--color-primary-cyan-process);
+            height: 40px;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            a {
+              text-decoration: none;
+              color: var(--color-neutral-10);
+            }
+            &:hover {
+              background: var(--color-primary-hover);
+            }
+            @include respond-to("<=s") {
+              max-width: 100%;
+              text-align: center;
+            }
+          }
         }
       }
     }
@@ -36,7 +58,7 @@
           img {
             @include respond-to("<=m") {
               width: 100%;
-              height: 320px;
+              height: auto;
             }
           }
         }
@@ -115,8 +137,29 @@
             height: auto;
           }
         }
-        .btn {
+        p {
+          padding: 11px var(--f-gutter);
+          text-decoration: none;
+          max-width: fit-content;
+          border-radius: 4px;
+          background: var(--color-primary-cyan-process);
+          height: 40px;
+          display: grid;
+          justify-content: center;
+          align-content: center;
           justify-self: center;
+          a {
+            text-decoration: none;
+            color: var(--color-neutral-10);
+          }
+          &:hover {
+            background: var(--color-primary-hover);
+          }
+          @include respond-to("<=s") {
+            justify-self: unset;
+            max-width: 100%;
+            text-align: center;
+          }
         }
       }
     }

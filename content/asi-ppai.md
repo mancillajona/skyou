@@ -114,7 +114,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </div>
 
-<btn type="primary" url="">Request a quote</btn>
+<btn type="primary" url="/custom-sourcing">Request a quote</btn>
 
 </block>
 
@@ -155,7 +155,7 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/3d-design-tool" display="full">Learn more</btn>
 
 </block>
 
@@ -181,11 +181,11 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/inkjet-printing" display="full">Learn more</btn>
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card">
 
 <card title="Custom Sourcing" subtitle="Can’t find the product your customer wants on ESP/SAGE? No worries. We have a full time sourcing team based at our Guangzhou factory to source nearly anything you can provide a sample or link for." />
 
@@ -195,11 +195,11 @@ A production timeline and updates on your order will be provided by our local of
 
 </template>
 
-<btn type="secondary" url="" display="full">Request a quote</btn>
+<btn type="secondary" url="/custom-sourcing" display="full">Request a quote</btn>
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card">
 
 <card title="Products" subtitle="We develop all of our products from scratch.
 We go through extensive fit testing, and quality checks to ensure each product is the best it can be." />
@@ -212,7 +212,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 </block>
 
-<block>
+<block id="asi-ppai__deferentiators__content__card__manufacturing">
 
 <card title="A wealth of manufacturing expertise" subtitle="We set up factories for Nike, Timberland, Reebok, and Adidas, licensing our order management software and teaching them how to make one off shoes and bags. " />
 

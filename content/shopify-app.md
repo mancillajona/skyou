@@ -13,7 +13,7 @@ description: Shopify App Page
 
 When you sell through Shopify you don’t have to carry any inventory, **SKYOU produces each order as they are placed**, and ships to your end customer on your behalf.
 
-<btn url="">Install Shopify App</btn>
+[Install Shopify App](https://apps.shopify.com/skyou)
 
 </block>
 
@@ -201,7 +201,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 ## Ready to get Started?
 
-<btn type="primary" url="">Install SKYOU App</btn>
+[Install Shopify App](https://apps.shopify.com/skyou)
 
 </block>
 

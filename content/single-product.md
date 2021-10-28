@@ -7,7 +7,7 @@ description: Single Product Page
 
 <block>
 
-<flui-breadcrumb  message="single-product"></flui-breadcrumb>
+<flui-breadcrumb  message="single-product" :data-breadcrumb='[{"title":"Products","url":"/products"},{"title":"Hoodies and Sweatshirts","url":"/category"},{"title":"Crewneck","url":"/single-product"}]'/>
 
 </block>
 

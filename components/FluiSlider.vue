@@ -11,28 +11,28 @@
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/slider-1.png"
+          src="../static/img/backpack.png"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/slider-1.png"
+          src="../static/img/backpack.png"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/slider-1.png"
+          src="../static/img/backpack.png"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/slider-1.png"
+          src="../static/img/backpack.png"
           alt="Slider Image"
         />
       </li>            

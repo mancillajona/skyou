@@ -13,8 +13,6 @@ description: Products Page
 
 <block id="products__title__action-buttons">
 
-<btn type="secondary" url="">Download Sales Sheet</btn>
-
 <btn type="secondary" url="">Download Catalog</btn>
 
 </block>
