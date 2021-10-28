@@ -121,7 +121,7 @@ Development and production timelines are established, and the project begins.
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/3d-design-tool" display="full">Learn more</btn>
 
 </block>
 
@@ -135,7 +135,7 @@ Development and production timelines are established, and the project begins.
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/cut-sew" display="full">Learn more</btn>
 
 </block>
 
@@ -149,7 +149,7 @@ Development and production timelines are established, and the project begins.
 
 </template>
 
-<btn type="secondary" url="" display="full">Learn more</btn>
+<btn type="secondary" url="/inkjet-printing" display="full">Learn more</btn>
 
 </block>
 
