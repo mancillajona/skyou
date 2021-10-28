@@ -1,10 +1,10 @@
 <template>
   <div class="flui-breadcrumb">
     <a
-      v-for="(breadcrumb, index) in breadcrumbs"
+      v-for="(breadcrumb, index) in dataBreadcrumb"
       :key="index"
       class="flui-breadcrumb__link"
-      href=""
+      :href="breadcrumb.url"
       >{{ breadcrumb.title }}
       <svg
         class="flui-breadcrumb__link__chevron"
@@ -29,12 +29,12 @@ export default {
     return {
       breadcrumbs: [
         {
-          title: "Parent",
-          breadcrumbUrl: "/parent",
+          title: "Products",
+          breadcrumbUrl: "/products",
         },
         {
           title: "Hoodies and Sweatshirts",
-          breadcrumbUrl: "/parent/children",
+          breadcrumbUrl: "/category",
         },
       ],
     };
@@ -43,6 +43,16 @@ export default {
     message: {
       type: String,
       required: true,
+    },
+    dataBreadcrumb: {
+      type: Array,
+      required: false,
+      to: [
+        {
+          title: String,
+          url: String,
+        },
+      ],
     },
   },
   methods: {
@@ -91,7 +101,7 @@ export default {
     &:visited {
       color: var(--flui-breadcrumb-link-color);
     }
-    &:not(:nth-last-child(2)) {
+    &:last-child {
       @include respond-to("<=s") {
         display: none;
       }
