@@ -33,7 +33,7 @@ export default {
         {
           hid: "og:image",
           property: "og:image",
-          content: `https://skyou-develop.onrender.com//cover.jpg`
+          content: `https://skyou-develop.onrender.com/cover.jpg`
         },
         {
           hid: "og:description",
