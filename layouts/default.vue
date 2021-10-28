@@ -35,16 +35,16 @@
           <div class="simple-footer__content__products">
             <h4>Products</h4>
             <div class="simple-footer__content__products__links-container">
-              <nuxt-link to="/">Apparel</nuxt-link>
-              <nuxt-link to="/">Bags</nuxt-link>
-              <nuxt-link to="/">Footwear</nuxt-link>             
+              <nuxt-link to="/category">Apparel</nuxt-link>
+              <nuxt-link to="/category">Bags</nuxt-link>
+              <nuxt-link to="/category">Footwear</nuxt-link>             
             </div>
           </div>
           <div class="simple-footer__content__about-us">
             <h4>About Us</h4>
             <div class="simple-footer__content__about-us__links-container">
-              <nuxt-link to="/">Our Story</nuxt-link>
-              <nuxt-link to="/">Contact Us</nuxt-link>         
+              <nuxt-link to="/about-us">Our Story</nuxt-link>
+              <nuxt-link to="/about-us#contact-us">Contact Us</nuxt-link>         
             </div>
           </div>
           <div class="simple-footer__content__our-technology">
