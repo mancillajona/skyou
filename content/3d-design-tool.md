@@ -1,6 +1,6 @@
 ---
 title: 3d-design-tool
-description: 3D Design Tool Page
+description: See exactly what your product will look like, in 3D, before it's made!
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="design-tool__hero">
