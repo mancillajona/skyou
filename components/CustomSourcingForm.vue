@@ -15,6 +15,9 @@ export default {
 iframe {
   @include respond-to("<=m") {
     width: 100vw;
+      @include respond-to("<=s") {
+        height: 3500px;
+      }
   }
 }
 </style>
