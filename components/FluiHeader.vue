@@ -1,5 +1,5 @@
 <template>
-  <header class="flui-header">
+  <header class="flui-header" :class="this.isNavOpen ? 'bg-transparent':''">
     <!-- Toogle button -->
     <button v-on:click="toggleMenu" class="flui-header__toggle">
       <img src="../assets/img/icon-menu-open.svg" v-if="!isNavOpen" alt="Menu" />
@@ -20,7 +20,7 @@
     </div>
 
     <!-- Main navigation -->
-    <nav class="flui-header__navigation" aria-label="main-navigation">
+    <nav :class="initMenu" class="flui-header__navigation" aria-label="main-navigation">
       <nuxt-link :to="nav.to" v-for="(nav, index) in mainNavigation" :key="index">
         <slot name="headerMainNavigation">{{ nav.title }}</slot>
       </nuxt-link>
@@ -76,24 +76,19 @@ export default {
   methods: {
     toggleMenu() {
       this.isNavOpen = !this.isNavOpen;
+      // let booleanx = true;
+      // console.log(this.isNavOpen);
 
       const headerEl = document.querySelector('.flui-header');
-      const headerMainNavIsOpenEl = document.querySelector('.navIsOpen');
-      const navEl = document.querySelector('.flui-header__navigation');
       const navAnchorEl = document.querySelectorAll('.flui-header__navigation a');
       const bodyEl = document.querySelector('body');
-
+      console.log(bodyEl);
       const navIsClosed = () => {
-        navEl.classList.remove('navIsOpen');
-        bodyEl.classList.remove('fixed');
-        headerEl.classList.remove('bg-transparent');
         this.isNavOpen = false;
+        bodyEl.classList.remove('fixed');
       };
-
       if (this.isNavOpen) {
-        navEl.classList.add('navIsOpen');
-        bodyEl.classList.add('fixed');
-        headerEl.classList.add('bg-transparent');
+       bodyEl.classList.add('fixed');
         headerEl.style.setProperty(
           '--calcHeaderHeight',
           headerEl.offsetHeight + 'px'
@@ -105,6 +100,13 @@ export default {
         navIsClosed();
       }
     },
+  },
+  computed: {
+    initMenu() {
+      return {
+        'navIsOpen': this.isNavOpen,
+      }
+    }
   },
 };
 </script>
