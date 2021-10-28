@@ -3,7 +3,7 @@
     <flui-header
         mode="full"
         logo="logo-horizontal--black.png"
-        :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/products"},{"title":"About Us","to":"/about-us"},{"title":"Our Technology","to":"/"},{"title":"Our Services","to":"/"},{"title":"Custom Sourcing","to":"/custom-sourcing"}]'
+        :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/products"},{"title":"About Us","to":"/about-us"},{"title":"Our Technology","to":""},{"title":"Our Services","to":""},{"title":"Custom Sourcing","to":"/custom-sourcing"}]'
         :actions='[{"title":"","to":"/"},{"title":"","to":"/"}]'
     />
     <Nuxt />
