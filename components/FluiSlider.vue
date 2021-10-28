@@ -4,35 +4,35 @@
       <li class="flui-slider__items__item current">
         <img
           class="cover"
-          src="../static/img/backpack.png"
+          src="../static/img/backpack.jpg"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/backpack.png"
+          src="../static/img/backpack.jpg"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/backpack.png"
+          src="../static/img/backpack.jpg"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/backpack.png"
+          src="../static/img/backpack.jpg"
           alt="Slider Image"
         />
       </li>
       <li class="flui-slider__items__item">
         <img
           class="cover"
-          src="../static/img/backpack.png"
+          src="../static/img/backpack.jpg"
           alt="Slider Image"
         />
       </li>            
