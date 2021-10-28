@@ -1,6 +1,6 @@
 ---
-title: cut-sew
-description: CCut/Sew Page
+title: Cut / Sew
+description: We use laser cutting for most short run production, especially when engineered artwork is required. Laser cutting uses an optical eye to read in pre marked pattern lines, and has great accuracy and consistency
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="cut-sew__hero">

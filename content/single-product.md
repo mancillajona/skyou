@@ -1,6 +1,6 @@
 ---
-title: single-product
-description: Single Product Page
+title: Single Product
+description:
 ---
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="single-product__breadcrumb">

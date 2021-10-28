@@ -1,6 +1,6 @@
 ---
-title: home
-description: Home Page
+title:  Home
+description: The SKYOU platform services a few different customer groups, select yours to learn more.
 ---
 
 <columns mode="full" number="1" number-m="1" number-s="1" id="home__slider">

@@ -1,6 +1,6 @@
 ---
-title: category
-description: Category Page
+title: Category
+description:
 ---
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="category__title">

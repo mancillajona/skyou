@@ -1,6 +1,6 @@
 ---
-title: custom-sourcing
-description: Custom Sourcing Page
+title: Custom Sourcing
+description: Let SKYOU act as your overseas sourcing office.
 ---
 
 <columns mode="slim" number="1" number-m="1" number-s="1" id="custom-sourcing__description">

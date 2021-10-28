@@ -1,11 +1,11 @@
 ---
-title: about-us
-description: About Us Page
+title: About Us
+description: Using our expertise in one-off manufacturing, we envisioned bringing retail quality products to any artist, designer, influencer or brand, regardless of size. That's why we started SKYOU.
 ---
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="about-us__title">
 
-# About us
+# About Us
 
 </columns>
 
