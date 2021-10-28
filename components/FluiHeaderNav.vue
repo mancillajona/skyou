@@ -64,12 +64,12 @@ export default {
           to: "",
           dropDownList: [
             {
-              title: "Category",
-              to: "/category",
+              title: "Overview",
+              to: "/products",
             },
             {
-              title: "Single Product",
-              to: "/single-product",
+              title: "Hoodies and Sweatshirts",
+              to: "/category",
             },
           ],
         },
@@ -297,7 +297,7 @@ body {
               color: var(--flui-header-nav-dropdown-text-color);
               padding: var(--f-gutter);
               border-radius: var(--flui-header-nav-dropdown-border-radius);
-              width: 196px;
+              /* width: 196px; */
               @include respond-to("<=m") {
                color: inherit;     
                justify-content: center;  
