@@ -1,6 +1,6 @@
 ---
-title: inkjet-printing
-description: Inkjet Printing Page
+title: Inkjet Printing
+description: SKYOU has mastered digital printing for both synthetic and cellulose based fabrics.
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="inkjet-printing__hero">

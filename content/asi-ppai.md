@@ -1,6 +1,6 @@
 ---
-title: asi-ppai
-description: ASI/PPAI Page
+title: ASI/PPAI
+description: SKYOU is a registered ASI/PPAI supplier. We specialize in all over print soft goods, specifically bags and garments.
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="asi-ppai__hero">

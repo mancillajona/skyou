@@ -1,6 +1,6 @@
 ---
-title: shopify-app
-description: Shopify App Page
+title: Shopify App
+description: Sell through Shopify with no inventory page
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="shopify-app__hero">

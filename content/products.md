@@ -1,6 +1,6 @@
 ---
-title: products
-description: Products Page
+title: Products
+description:
 ---
 
 <columns mode="normal" number="2" number-m="1" number-s="1" id="products__title">

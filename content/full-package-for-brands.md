@@ -1,6 +1,6 @@
 ---
-title: full-package-for-brands
-description: Full Package for Brands Page
+title: Full Package For Brands
+description: SKYOU is a full package manufacturing partner for your brand. We manufacture for a variety of brands selling direct to consumer, or through wholesale channels.
 ---
 
 <columns mode="normal" number="2" number-l="2" number-m="1" number-s="1" id="full-package-for-brands__hero">
