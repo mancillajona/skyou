@@ -12,9 +12,42 @@ export default {
       error({ statusCode: 404, message: 'Page not found'});
     });
     return {
-      page
+      page,
+      title: page.title,
+      description: page.description,
     };
-  }
+  },
+  head() {
+    console.log(this.page);
+      return {
+        title: `${this.title} - SKYOU`,
+        meta: [
+          {
+            content: this.description
+          },
+          {
+                hid: 'description',
+                name: 'description',
+                content: this.title,
+            },
+            {
+                hid: 'og:title',
+                name: 'og:title',
+                content: this.title,
+            },
+            {
+                hid: 'og:image',
+                property: 'og:image',
+                content: `https://i.ibb.co/YN3FZ4b/cover.jpg`,
+            },
+            {
+                hid: 'og:description',
+                property: 'og:description',
+                content: 'We have a large selection of standard apparel and accessories patterns, including custom-made T-shirts, hoodies, face masks, backpacks, totes, etc. We offer all-over printing and custom manufacturing to meet your specific brand requirements.',
+            },
+        ]
+      }
+    }
 }
 // export default {
 //   async asyncData ({ $content }) {
