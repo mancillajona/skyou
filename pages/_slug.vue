@@ -20,7 +20,6 @@ export default {
     };
   },
   head() {
-    console.log(this.page);
     return {
       title: `${this.title} - SKYOU`,
       meta: [
@@ -40,7 +39,7 @@ export default {
         {
           hid: "og:image",
           property: "og:image",
-          content: `https://i.ibb.co/YN3FZ4b/cover.jpg`
+          content: `https://skyou-develop.onrender.com//cover.jpg`
         },
         {
           hid: "og:description",
