@@ -1,5 +1,5 @@
 ---
-title: 3d-design-tool
+title: 3D Design Tool
 description: See exactly what your product will look like, in 3D, before it's made!
 ---
 
