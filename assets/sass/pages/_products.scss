@@ -12,7 +12,13 @@
           align-content: center;
           justify-content: end;
           @include respond-to("<=m") {
-            justify-content: center;
+            justify-content: start;
+            .btn {
+              max-width: max-content;
+            }
+            @include respond-to("<=s") {
+              justify-content: unset;
+            }
           }
           .btn {
             max-width: 100%;
