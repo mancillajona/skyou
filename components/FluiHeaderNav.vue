@@ -91,7 +91,7 @@ export default {
             },
             {
               title: "Cut/Sew",
-              to: "/cyt-sew",
+              to: "/cut-sew",
             },
           ],
         },
