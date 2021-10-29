@@ -214,12 +214,12 @@ export default {
     height: 100%;
     &:not(.actions) {
       a {
-        padding: 0 var(--f-gutter);
-        height: 100%;
-        padding: var(--f-gutter);
+        height: auto;
+        padding: 23px var(--f-gutter);
         @include respond-to('<=m') {
           width: 100%;
           text-align: center;
+          padding: var(--f-gutter);
         }
       }
     }
