@@ -202,7 +202,7 @@ body {
     display: grid;
     background: transparent;
     height: var(--flui-header-nav-height);
-    widows: 100%;
+    width: 100%;
     @include respond-to("<=m") {
       height: 100%;
       background-color: var(--color-neutral-10);
@@ -240,7 +240,6 @@ body {
           width: 100%;
           color: var(--flui-header-nav-top-anchor-text-color);
           text-align: center;
-          padding: 23px var(--f-gutter);
           /* &:hover {
             background-color: var(
               --flui-header-nav-top-anchor-background-color
@@ -273,6 +272,8 @@ body {
           z-index: var(--flui-header-nav-dropdown-zindex);
           box-shadow: var(--flui-header-nav-dropdown-box-shadow);
           display: none;
+          top: 56px;
+          left: 0;
           @include respond-to("<=m") {
             display: grid;
             position: relative;
@@ -297,11 +298,11 @@ body {
               color: var(--flui-header-nav-dropdown-text-color);
               padding: var(--f-gutter);
               border-radius: var(--flui-header-nav-dropdown-border-radius);
-              /* width: 196px; */
               @include respond-to("<=m") {
                color: inherit;     
                justify-content: center;  
                color: var(--color-neutral-03);
+               width: 100%;
               }
               &:hover {
                 background-color: var(--color-neutral-09);

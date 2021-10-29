@@ -24,7 +24,7 @@
               </div>
               <div class="simple-footer__content__contact__phone">
                 <img src="../assets/img/icon-phone.svg" alt="telephone">
-                <p>(415) 000-0000</p>
+                <a href="tel:+16197451300">+1 619-745-1300</a>
               </div>
               <div class="simple-footer__content__contact__location">
                 <img src="../assets/img/icon-location-address.svg" alt="location">
@@ -139,9 +139,14 @@
           grid-auto-flow: column;
           justify-content: start;
           gap: 10px;
-          p {
+          a {
             margin-bottom: 0;
-            line-height: var(--f-default-link-line-height);
+            /* line-height: var(--f-default-link-line-height); */
+            color: var(--color-neutral-10);
+            text-decoration: none;
+          }
+          img {
+            height: 24px;
           }
           @include respond-to('<=m') {
             grid-auto-flow: row;
