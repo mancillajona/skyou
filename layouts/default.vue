@@ -20,11 +20,11 @@
             <div class="simple-footer__content__contact">
               <div class="simple-footer__content__contact__mail">
                 <img src="../assets/img/icon-mail.svg" alt="mail">
-                <p>sales@skyou.com</p>
+                <a href="mailto:sales@skyou.com">sales@skyou.com</a>
               </div>
               <div class="simple-footer__content__contact__phone">
                 <img src="../assets/img/icon-phone.svg" alt="telephone">
-                <a href="tel:+16197451300">+1 619-745-1300</a>
+                <a href="tel:+1 6197451300">+1 619-745-1300</a>
               </div>
               <div class="simple-footer__content__contact__location">
                 <img src="../assets/img/icon-location-address.svg" alt="location">
