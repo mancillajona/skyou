@@ -1,5 +1,4 @@
 <template>
-  <client-only>
     <simple-layout>
       <flui-header
           mode="full"
@@ -73,7 +72,6 @@
         </section>
       </template>
     </simple-layout>
-  </client-only>
 </template>
 
 <script>
