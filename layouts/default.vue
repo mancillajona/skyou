@@ -144,6 +144,12 @@
             /* line-height: var(--f-default-link-line-height); */
             color: var(--color-neutral-10);
             text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+            &:active {
+              color: var(--color-neutral-03);
+            }            
           }
           img {
             height: 24px;
@@ -194,6 +200,13 @@
           a {
             text-decoration: none;
             color: var(--color-neutral-06);
+
+            &:hover {
+              text-decoration: underline;
+            }
+            &:active {
+              color: var(--color-neutral-03);
+            }
           }
         }
       }
