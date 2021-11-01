@@ -78,14 +78,6 @@
 
 <script>
   export default {
-    methods: {
-      test() {
-        console.log('client-only')
-      }
-    },
-    mounted() {
-      this.test();
-    }
   }
 </script>
 
