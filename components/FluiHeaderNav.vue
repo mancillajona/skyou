@@ -9,6 +9,7 @@
         <a
           class="flui-header-nav__items__single-item__top-anchor"
           :href="item.to"
+          :class="classes"
         >
           {{ item.title }}
           <svg
@@ -38,10 +39,10 @@
             :key="index"
             class="flui-header-nav__items__single-item__dropdown__single-item"
           >
-            <a
+            <nuxt-link
               class="flui-header-nav__items__single-item__dropdown__single-item__anchor"
-              :href="dropdownItem.to"
-              >{{ dropdownItem.title }}</a
+              :to="dropdownItem.to"
+              >{{ dropdownItem.title }}</nuxt-link
             >
           </li>
         </ul>
@@ -58,24 +59,30 @@ export default {
         {
           title: "Home",
           to: "/",
+          isSigleMenu: true,
         },
         {
           title: "Products",
           to: "",
           dropDownList: [
             {
-              title: "Overview",
+              title: "Apparel",
               to: "/products",
             },
             {
-              title: "Hoodies and Sweatshirts",
+              title: "Bags",
               to: "/category",
             },
+            {
+              title: "Footwear",
+              to: "/category",
+            },            
           ],
         },
         {
           title: "About Us",
           to: "/about-us",
+          isSigleMenu: true,
         },
         {
           title: "Our Technology",
@@ -116,9 +123,23 @@ export default {
         {
           title: "Custom Sourcing",
           to: "/custom-sourcing",
+          isSigleMenu: true,
         },
       ],
     };
+  },
+  props: {
+    isSigleMenu: {
+      type: Boolean,
+      default: false,
+    }
+  },
+   computed: {
+    classes() {
+      return {
+        "is-single-menu": this.isSigleMenu,
+      };
+    },
   },
   methods: {
     setNav() {
@@ -220,8 +241,7 @@ body {
       padding-left: 0;
       @include respond-to("<=m") {
         grid-auto-flow: row;
-        gap: 0;
-        justify-content: center;
+        gap: var(--f-gutter-l);
       }
       &__single-item {
         display: grid;
@@ -230,7 +250,6 @@ body {
         position: relative;
         @include respond-to("<=m") {
          width: 100%;
-         justify-content: center;
         }
         &__top-anchor {
           display: grid;
@@ -250,7 +269,11 @@ body {
             pointer-events: none;
             &:hover {
             background-color: transparent;
-          }
+            }
+            &:not(.is-single-menu) {
+              color: var(--color-neutral-06);
+              font-weight: bolder;
+            }
           }
           &__chevron {
             transition: var(--flui-header-nav-transition);
@@ -300,7 +323,7 @@ body {
               @include respond-to("<=m") {
                color: inherit;     
                justify-content: center;  
-               color: var(--color-neutral-03);
+               color: var(--color-neutral-01);
                width: 100%;
               }
               &:hover {
