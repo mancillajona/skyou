@@ -195,6 +195,7 @@ export default {
   --flui-header-nav-dropdown-box-shadow: 0px 8px 16px rgba(18, 21, 22, 0.12);
   --flui-header-nav-dropdown-text-color: var(--color-neutral-03);
   --flui-header-nav-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --flui-header-nav-top-anchor-text-color-hover: var(--color-neutral-03);
 }
 
 body {
@@ -240,11 +241,9 @@ body {
           width: 100%;
           color: var(--flui-header-nav-top-anchor-text-color);
           text-align: center;
-          /* &:hover {
-            background-color: var(
-              --flui-header-nav-top-anchor-background-color
-            );
-          } */
+          &:hover {
+            color: var(--flui-header-nav-top-anchor-text-color-hover);
+          }
           align-items: center;
           @include respond-to("<=m") {
             justify-content: center;
