@@ -76,6 +76,14 @@
 
 <script>
   export default {
+    methods: {
+      test() {
+        console.log('ssr true')
+      }
+    },
+    mounted() {
+      this.test();
+    }
   }
 </script>
 
