@@ -3,17 +3,11 @@ title: Products
 description:
 ---
 
-<columns mode="normal" number="2" number-m="1" number-s="1" id="products__title">
+<columns mode="normal" number="1" number-m="1" number-s="1" id="products__title">
 
 <block>
 
 # Products
-
-</block>
-
-<block id="products__title__action-buttons">
-
-<btn type="secondary" url="">Download Catalog</btn>
 
 </block>
 
