@@ -12,12 +12,9 @@ description: SKYOU is a registered ASI/PPAI supplier. We specialize in all over 
 SKYOU is a registered ASI/PPAI supplier.  We specialize in all over print soft goods, specifically bags and garments.
 
 If you’ve dealt with a Chinese factory before the experience was likely less than ideal.  We’re a bit different as we 
-
-1.Own our factories, we are not a trading company 
-
-2.Are American owned and operated 
-
-3.Have excellent english communication 
+1. Own our factories, we are not a trading company 
+2. Are American owned and operated 
+3. Have excellent english communication 
 
 
 </block>
