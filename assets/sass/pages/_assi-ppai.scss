@@ -73,6 +73,10 @@
       p,h3 {
         margin-bottom: 0;
       }
+      @include respond-to("<=m") {
+        padding-left: var(--f-gutter);
+        padding-right: var(--f-gutter);
+      }
       .content {
         .box {
           display: grid;
