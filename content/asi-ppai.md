@@ -54,11 +54,9 @@ If you’ve dealt with a Chinese factory before the experience was likely less t
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-user](./img/icon-user.svg)
 
-### Step 1
-
-### Register
+### 1. Register
 
 Register for an account here please provide your ASI/PPAI number for verification.  Your account will be verified within 24 hours (M - F). 
 
@@ -66,11 +64,9 @@ Register for an account here please provide your ASI/PPAI number for verificatio
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-3d-cube](./img/icon-3d-cube.svg)
 
-### Step 2
-
-### Design your products
+### 2. Design your products
 
 Design your products using our 3D Design Tool or request mockups at sales@skyou.com, and download high resolution renders from our 3D design tool to share with your clients.
 
@@ -78,11 +74,9 @@ Design your products using our 3D Design Tool or request mockups at sales@skyou.
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-shirt](./img/icon-shirt.svg)
 
-### Step 3
-
-### Place your order
+### 3. Place your order
 
 Place your order directly through your account, or send us a PO at sales@skyou.com.
 A production timeline and updates on your order will be provided by our local office.
@@ -148,7 +142,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![laptop](./img/laptop.png)
 
 </template>
 
@@ -162,7 +156,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![cut-sew](./img/cut-sew.png)
 
 </template>
 
@@ -174,7 +168,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![print-technologies](./img/print-technologies.png)
 
 </template>
 
@@ -188,7 +182,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![t-shirt](./img/t-shirt.png)
 
 </template>
 
@@ -203,7 +197,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![products-page](./img/products.png)
 
 </template>
 
