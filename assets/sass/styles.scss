@@ -17,7 +17,7 @@
 
 :root {
   --f-header-text-color: var(--color-neutral-01);
-  --f-header-background-color: var(--color-neutral-08);
+  --f-header-background-color: var(--color-neutral-09);
   --f-section-background-color: var(--color-neutral-09);
   --f-section-content-background-color: var(--color-neutral-10);
   --heading-1-default-height: 53px;
@@ -25,7 +25,7 @@
 }
 
 body {
-  background-color: var(--color-neutral-09);
+  background-color: var(--color-neutral-10);
   &.fixed {
     position: fixed;
   }
