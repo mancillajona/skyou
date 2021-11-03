@@ -3,10 +3,10 @@
     padding-top: var(--column-space-l);
     padding-bottom: var(--column-space-l);
     gap: var(--f-gutter);
-    background-color: var(--color-neutral-09);
   }
   &__subtitle {
     padding-top: var(--column-space-l);
+    background-color: var(--color-neutral-10);
     .content {
       .box {
         h2 {
@@ -23,5 +23,6 @@
 
   &__categories {
     padding-bottom: var(--column-space-l);
+    background-color: var(--color-neutral-10);
   }
 }
