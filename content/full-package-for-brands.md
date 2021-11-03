@@ -48,9 +48,7 @@ SKYOU is a full package manufacturing partner for your brand. We manufacture for
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
-
-### Step 1
+![icon-quote-calculator](./img/icon-quote-calculator.svg)
 
 ### You request a quote
 
@@ -60,25 +58,19 @@ Reach out to us at sales@skyou.com to quote your project. Quotes for new product
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-3d-cube](./img/icon-3d-cube.svg)
 
-### Step 2
+### 2. We set you up
 
-### We set you up
-
-We'll provide an account that has access to our standard silhouettes through our 3D Design Tool.
-
-We can add your custom patterns to our 3D tool, or help you develop new products based on your technical specifications.
+We'll provide an account that has access to our 3D Design Tool. We can add your custom patterns or help you develop new products.
 
 </block>
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-shirt](./img/icon-shirt.svg)
 
-### Step 3
-
-### Manufacturing begins
+### 3. Manufacturing begins
 
 Development and production timelines are established, and the project begins.
 
@@ -117,7 +109,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![card-iamge](./img/laptop.png)
 
 </template>
 
@@ -131,7 +123,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![card-iamge](./img/cut-sew.png)
 
 </template>
 
@@ -145,7 +137,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![card-iamge](./img/print-technologies.png)
 
 </template>
 
@@ -159,7 +151,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![card-iamge](./img/t-shirt.png)
 
 </template>
 
@@ -172,9 +164,11 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![card-iamge](./img/products.png)
 
 </template>
+
+<btn type="secondary" url="/products" display="full">View products</btn>
 
 </block>
 
