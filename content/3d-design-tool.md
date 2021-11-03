@@ -17,7 +17,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <block id="design-tool__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![rectangle](./img/laptop--hero.png)
 
 </block>
 
@@ -49,7 +49,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 
 
-<columns mode="normal" number="3" number-m="1" number-s="1" id="design-tool__content">
+<columns mode="normal" number="3" number-m="2" number-s="1" id="design-tool__content">
 
 <block>
 
@@ -57,7 +57,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![laptop-image](./img/laptop.png)
 
 </template>
 
@@ -69,7 +69,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![acuracy-image](./img/acuracy-img.png)
 
 </template>
 
@@ -81,9 +81,11 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![flexibility-image](./img/flexibility-image.png)
 
 </template>
+
+<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
@@ -93,9 +95,11 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![customization-image](./img/customization-image.png)
 
 </template>
+
+<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
@@ -105,9 +109,11 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![effortless-design-image](./img/effortless-design.png)
 
 </template>
+
+<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
@@ -120,6 +126,8 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 ![card-iamge](./img/backpack-card.png)
 
 </template>
+
+<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
