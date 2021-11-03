@@ -47,7 +47,7 @@ We use laser cutting for most short run production, especially when engineered a
 
 ## Sewing
 
-![backpack-image](./img/backpack-medium.png)
+![backpack-image](./img/sew.png)
 
 We have a wide variety of machines and can handle nearly any construction details you desire. Our staff is selected carefully for their skill and experience, and we personally have 20+ years of sewing experience. From sewing out of our USA factory to managing large scale sewing in Asia, our quality is first class.
 
