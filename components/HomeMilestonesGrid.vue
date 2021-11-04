@@ -8,7 +8,16 @@
       <h4>1995</h4>
       <h4>Set up mass customization factories for Nike, Reebok and Timberland</h4>
     </div>
-     <img src="../static/img/dots.svg" alt="" class="dot-line">
+    <div class="dot-line">
+      <div class="line"></div>
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+     <!-- <img src="../static/img/dots.svg" alt="" class="dot-line"> -->
     <div class="home__milestones__grid side-3">
       <h4>2005</h4>
       <h4>Led product development at CafePress and Zazzle</h4>
@@ -34,7 +43,7 @@ export default {
       grid-template-columns: 400px 10px 400px;
       justify-content: center;
       padding: var(--f-gutter) 0;
-      gap: var(--f-gutter);
+      column-gap: var(--f-gutter);
       @include respond-to("<=m") {
         grid-template-columns: 1fr 10px 1fr;
       }
@@ -43,7 +52,13 @@ export default {
     }
     .side-2 {
       grid-column: 3 / 4;
-      grid-row: 2 / 3;     
+      grid-row: 2 / 3;  
+      h4 {
+        width: 82%;
+        @include respond-to("<=m") {
+          width: 100%;
+        }
+      }
     }
     .side-3 {
       grid-column: 1 / 2;
@@ -56,15 +71,33 @@ export default {
     .dot-line {
       grid-column: 2 / 3;
       grid-row: 1 / 5;
+      position: relative;
       .line {
-        width: 5px;
+        position: absolute;
+        width: 1px;
+        left: calc(50% - 0px/2);
+        top: 0px;
         height: 100%;
-        color: #C8CED0;
+        background-color: var(--color-neutral-06);
+        z-index: 20;
       }
-      .dot {
+      .dots {
+        height: 100%;
+        display: grid;
+        padding-top: 31px;
+        padding-bottom: 44px;
+        align-content: space-between;
+        .dot {
+        
         width: 10px;
         height: 10px;
-        border-radius: 1px solid #C8CED0;
+        left: 0px;
+        background: var(--color-neutral-10);
+        border: 1px solid var(--color-primary-fashion-fuchsia);
+        box-sizing: border-box;
+        border-radius: 50%;
+        z-index: 40;
+      }
       }
       height: 100%;
     }
@@ -76,9 +109,10 @@ export default {
     height: max-content;
     h4 {
       margin-bottom: 0;
+      color: var(--color-neutral-01);
     }
     h4:nth-of-type(1) {
-      color: var(--color-neutral-04);
+      color: var(--color-primary-fashion-fuchsia);
     }
   }
 }
