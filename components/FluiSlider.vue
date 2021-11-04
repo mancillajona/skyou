@@ -5,7 +5,7 @@
         <video
           class="cover hero-video"
           src="../static/img/skyou-about-us.mp4"
-          alt="Slider Image"
+          alt="Slider Video"
           width="100%"
           height="700"
           controls
@@ -243,8 +243,12 @@ export default {
         object-fit: cover;
         @include respond-to("<=s") {
           height: var(--flui-slider-height-mobile);
-        }        
+        } 
+               
       }
+      video::-webkit-media-controls-panel {
+        padding-bottom: var(--f-gutter-l);
+      }      
     }
   }
   &__controls {
