@@ -2,11 +2,15 @@
   <div class="flui-slider">
     <ul class="flui-slider__items">
       <li class="flui-slider__items__item current">
-        <img
-          class="cover"
-          src="../static/img/backpack.jpg"
+        <video
+          class="cover hero-video"
+          src="../static/img/skyou-about-us.mp4"
           alt="Slider Image"
-        />
+          width="100%"
+          height="700"
+          controls
+          autoplay
+        ></video>
       </li>
       <li class="flui-slider__items__item">
         <img
@@ -187,7 +191,8 @@ export default {
 <style lang="scss">
 @import '@lkmx/flare/src/functions/_respond-to.scss';
 :root {
-  --flui-slider-height: 500px;
+  --flui-slider-height: 700px;
+  --flui-slider-height-mobile: 375px;
   --flui-slider-indicators-bg-color: var(--color-neutral-07);
   --flui-slider-indicators-bg-color-current: var(--color-neutral-10);
   --flui-slider-indicators-border-color: var(--color-neutral-10);
@@ -208,6 +213,9 @@ export default {
   width: 100%;
   height: var(--flui-slider-height);
   padding: 0;
+  @include respond-to("<=s") {
+    height: var(--flui-slider-height-mobile);
+  }
   * {
     margin: 0;
   }
@@ -230,6 +238,11 @@ export default {
         width: 100%;
         height: var(--flui-slider-height);
         object-fit: cover;
+      }
+      video {
+        @include respond-to("<=s") {
+          height: var(--flui-slider-height-mobile);
+        }        
       }
     }
   }
@@ -298,9 +311,9 @@ export default {
     column-width: auto;
     justify-content: center;
     padding: var(--f-gutter);
-    @include respond-to('<=s') {
+    /* @include respond-to('<=s') {
       padding: var(--f-gutter-xs);
-    }
+    } */
     &__dot {
       padding: 0;
       vertical-align: middle;

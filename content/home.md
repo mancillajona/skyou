@@ -21,166 +21,6 @@ description: The SKYOU platform services a few different customer groups, select
 
 
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="home__title">
-
-<block>
-
-# Why SKYOU?
-
-</block>
-
-</columns>
-
-
-
-
-
-
-
-
-
-
-<columns mode="normal" number="3" number-m="2" number-s="1" id="home__what-we-offer">
-
-<block>
-
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-star](./img/icon-star.svg)
-
-</template>
-
-<template v-slot:title>
-
-### Retail Quality Products
-
-</template>
-
-</home-what-we-offer-title>
-
-Custom developed patterns and fabrics, innovative digital printing, quality cut and sew.
-
-</block>
-
-<block>
-
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-package](./img/icon-package.svg)
-
-</template>
-
-<template v-slot:title>
-
-### No/Low Minimum order quantities
-
-</template>
-
-</home-what-we-offer-title>
-
-</block>
-
-<block>
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-tag](./img/icon-tag.svg)
-
-</template>
-
-<template v-slot:title>
-
-### Full package retail sourcing
-
-</template>
-
-</home-what-we-offer-title>
-
-Woven labels, hangtags, seam tags.
-
-</block>
-
-<block>
-
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-print](./img/icon-print.svg)
-
-</template>
-
-<template v-slot:title>
-
-### Masters of digital printing
-
-</template>
-
-</home-what-we-offer-title>
-
-All over inkjet printing for cotton, poly, rayon, tencel, vegan leather, and nearly any material you can imagine.
-
-</block>
-
-<block>
-
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-handshake](./img/icon-handshake.svg)
-
-</template>
-
-<template v-slot:title>
-
-### No middlemen
-
-</template>
-
-</home-what-we-offer-title>
-
-We own and operate factories in Guangzhou, China and Tijuana, Mexico.
-
-</block>
-
-<block>
-
-<home-what-we-offer-title>
-
-<template v-slot:icon>
-
-![icon-3d-cube](./img/icon-3d-cube.svg)
-
-</template>
-
-<template v-slot:title>
-
-### 3d design tool
-
-</template>
-
-</home-what-we-offer-title>
-
-Our tool is a pixel to inch representation of what we’ll manufacture for you.  No more tech packs, no more confusion
-
-</block>
-
-</columns>
-
-
-
-
-
-
-
-
-
 <columns mode="normal" number="1" number-m="1" number-s="1" id="home__our-services__title">
 
 <block>
@@ -273,13 +113,13 @@ Design your products using our **3D design tool** and **order in bulk for your b
 
 <template v-slot:grid-title>
 
-### Be a ASI/SAGE distributor
+### ASI/SAGE Distributors
 
 </template>
 
 <template v-slot:grid-text>
 
-Download **high resolution renders** to share with your clients and **place your order** directly through your account.
+Let us help design amazing all-over printed products. **Free mockups, samples, and top notch service.**
 
 </template>
 
@@ -304,37 +144,137 @@ Download **high resolution renders** to share with your clients and **place your
 
 
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="home__our-services__companies">
+<columns mode="normal" number="1" number-m="1" number-s="1" id="home__what-we-offer">
 
-<block id="home__our-services__companies__title-logo">
+<block id="home__what-we-offer__content">
 
-### Trusted by world's leading companies
+# Why SKYOU?
 
-</block>
+<home-what-we-offer-title>
 
-</columns>
+<template v-slot:icon>
 
+![icon-star](./img/icon-star--yellow.svg)
 
+</template>
 
+<template v-slot:title>
 
+### Retail Quality Products
 
+</template>
 
+<template v-slot:description>
 
+Custom developed patterns and fabrics, innovative digital printing, quality cut and sew.
 
+</template>
 
-<columns mode="normal" number="1" number-m="1" number-s="1" id="home__our-services__companies">
+</home-what-we-offer-title>
 
-<block id="home__our-services__companies__content-logo">
+<home-what-we-offer-title>
 
-![logo](./img/logo-reebok.svg)
+<template v-slot:icon>
 
-![logo](./img/logo-adidas.svg)
+![icon-package](./img/icon-package-order--yellow.svg)
 
-![logo](./img/logo-pokemon.svg)
+</template>
 
-![logo](./img/logo-nike.svg)
+<template v-slot:title>
 
-![logo](./img/logo-timberland.svg)
+### No/Low Minimum order quantities
+
+</template>
+
+</home-what-we-offer-title>
+
+<home-what-we-offer-title>
+
+<template v-slot:icon>
+
+![icon-tag](./img/icon-tag--yellow.svg)
+
+</template>
+
+<template v-slot:title>
+
+### Full package retail sourcing
+
+</template>
+
+<template v-slot:description>
+
+Woven labels, hangtags, seam tags.
+
+</template>
+
+</home-what-we-offer-title>
+
+<home-what-we-offer-title>
+
+<template v-slot:icon>
+
+![icon-print](./img/icon-print--yellow.svg)
+
+</template>
+
+<template v-slot:title>
+
+### Masters of digital printing
+
+</template>
+
+<template v-slot:description>
+
+All over inkjet printing for cotton, poly, rayon, tencel, vegan leather, and nearly any material you can imagine.
+
+</template>
+
+</home-what-we-offer-title>
+
+<home-what-we-offer-title>
+
+<template v-slot:icon>
+
+![icon-handshake](./img/icon-handshake--yellow.svg)
+
+</template>
+
+<template v-slot:title>
+
+### No middlemen
+
+</template>
+
+<template v-slot:description>
+
+We own and operate factories in Guangzhou, China and Tijuana, Mexico.
+
+</template>
+
+</home-what-we-offer-title>
+
+<home-what-we-offer-title>
+
+<template v-slot:icon>
+
+![icon-3d-cube](./img/icon-3d-cube--yellow.svg)
+
+</template>
+
+<template v-slot:title>
+
+### 3d design tool
+
+</template>
+
+<template v-slot:description>
+
+Our tool is a pixel to inch representation of what we’ll manufacture for you.  No more tech packs, no more confusion
+
+</template>
+
+</home-what-we-offer-title>
 
 </block>
 
@@ -374,6 +314,127 @@ Download **high resolution renders** to share with your clients and **place your
 <block>
 
 <home-milestones-grid />
+
+</block>
+
+</columns>
+
+
+
+
+
+
+
+
+
+<columns mode="normal" number="1" number-m="1" number-s="1" id="home__our-technology__title">
+
+<block>
+
+# Our Technology
+
+</block>
+
+</columns>
+
+
+
+
+
+
+
+
+
+
+
+
+<columns mode="normal" number="1" number-m="1" number-s="1" id="home__our-technology__cards">
+
+<block>
+
+<home-our-services-cards>
+
+<template v-slot:grid-image>
+
+![3d-representation-image](./img/laptop.png)
+
+</template>
+
+<template v-slot:grid-title>
+
+### 3D Design Tool
+
+</template>
+
+<template v-slot:grid-text>
+
+Design your products using our **3D design tool** and **order in bulk for your brand.**
+
+</template>
+
+<template v-slot:grid-btn>
+
+<btn type="secondary" display="full" url="/3d-design-tool">Learn more</btn>
+
+</template>
+
+</home-our-services-cards>
+
+<home-our-services-cards>
+
+<template v-slot:grid-image>
+
+![order-in-bulk-image](./img/acuracy-img.png)
+
+</template>
+
+<template v-slot:grid-title>
+
+### Inkjet Printing
+
+</template>
+
+<template v-slot:grid-text>
+
+SKYOU has mastered digital printing for both synthetic and cellulose based fabrics. Choose between **Reactive Inkjet** and **Sublimation**.
+
+</template>
+
+<template v-slot:grid-btn>
+
+<btn type="secondary" display="full" url="/inkjet-printing">Learn more</btn>
+
+</template>
+
+</home-our-services-cards>
+
+<home-our-services-cards>
+
+<template v-slot:grid-image>
+
+![cut-sew](./img/cut-sew.png)
+
+</template>
+
+<template v-slot:grid-title>
+
+### Cut / Sew
+
+</template>
+
+<template v-slot:grid-text>
+
+We use **laser cutting** for most short run production, especially when engineered artwork is required.
+
+</template>
+
+<template v-slot:grid-btn>
+
+<btn type="secondary" display="full" url="/cut-sew">Learn more</btn>
+
+</template>
+
+</home-our-services-cards>
 
 </block>
 

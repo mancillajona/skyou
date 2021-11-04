@@ -219,10 +219,10 @@
     }
     &__legal {
       display: grid;
-      /* grid-template-columns: 1200px; */
+      grid-template-columns: 1200px;
       padding: var(--f-gutter);
       background-color: var(--color-neutral-02);
-      /* justify-content: center; */
+      justify-content: center;
       @include respond-to('<=l') {
         grid-template-columns: 1fr;
         @include respond-to('<=m') {

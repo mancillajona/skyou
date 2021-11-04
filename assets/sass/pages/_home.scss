@@ -8,46 +8,66 @@
       }
     }
   }
-  &__title {
-    padding-top: var(--column-space-l);
-    padding-bottom: var(--column-space-l);
-    background: var(--color-neutral-10);
-    .content {
-      .box {
-        text-align: center;
-        h1 {
-          color: var(--color-neutral-03);
-        }
-      }
-    }
-  }
   &__what-we-offer {
-    padding-top: var(--column-space-l);
-    padding-bottom: var(--column-space-l);
-    background: var(--color-neutral-10);
+    background-image: linear-gradient(rgba(119, 88, 192, 0.9), rgba(119, 88, 192, 0.9)), url(./static/img/why-skyou-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    // background-position: center;
     @include respond-to("<=s") {
       gap: var(--f-gutter);
     }
-    .--flare {
+    // &__title {
+    //   padding-top: var(--column-space-xxl);
+    //   padding-bottom: var(--column-space-l);
+    //   background: var(--color-neutral-10);
+    //   .content {
+    //     .box {
+    //       text-align: center;
+    //       h1 {
+    //         color: var(--color-neutral-03);
+    //       }
+    //     }
+    //   }
+    // }
+    &__content {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-xxl);
       .content {
         .box {
-          display: grid;          
-          gap: var(--f-gutter);
-          height: 182px;
-          @include respond-to("<=s") {
-            height: auto;
-          }
-          h3, p {
-            margin-bottom: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 0;
+          @include respond-to("<=m") {
+            grid-template-columns: 1fr 1fr;
+            @include respond-to("<=s") {
+              grid-template-columns: 1fr;
+            }
           }
         }
       }
-    }
+      h1 {
+        margin-top: var(--column-space-xxl);
+        margin-bottom: var(--column-space-l);
+        padding: var(--f-gutter);
+        text-align: center;
+        grid-column: 1 / 4;
+        color: var(--color-neutral-10);
+        @include respond-to("<=m") {
+          grid-column: 1 / 3;
+        }
+        @include respond-to("<=s") {
+          grid-column: 1 / 2;
+        }
+      }
+    }    
   }
   &__our-services {
     &__title {
-      padding-top: var(--column-space-l);
+      padding-top: var(--column-space-xxl);
       padding-bottom: var(--column-space-l);
+      background-color: var(--color-neutral-10);
       @include respond-to("<=s") {
         padding-top: 0;
         padding-bottom: 0;
@@ -83,56 +103,20 @@
     }
     &__cards {
       padding-top: var(--column-space-l);
-      padding-bottom: var(--column-space-l);
+      padding-bottom: var(--column-space-xxl);
+      background-color: var(--color-neutral-10);
       gap: var(--f-gutter-l);
       .content {
         .box {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          padding: 0 26px;
-          gap: 26px;
+          padding: 0 var(--f-gutter-l);
+          gap: var(--f-gutter-l);
           @include respond-to("<=m") {
             grid-template-columns: 1fr 1fr;
+            padding: var(--f-gutter);
             @include respond-to("<=s") {
               grid-template-columns: 1fr
-            }
-          }
-        }
-      }
-    }
-    &__companies {
-      &__title-logo {
-        padding-top: var(--column-space-xl);
-        .content {
-          .box {
-            padding-bottom: 0;
-            h3 {
-              text-align: center;
-              color: var(--color-neutral-04);
-            }
-          }
-        }
-      }
-      &__content-logo {
-        padding-top: var(--column-space-xl);
-        padding-bottom: var(--column-space-xl);
-        .content {
-          .box {
-            display: grid;
-            grid-auto-flow: column;
-            gap: var(--f-gutter);
-            padding-top: 0;
-            @include respond-to("<=s") {
-              grid-template-columns: 1fr 1fr;
-              grid-auto-flow: row;
-              p:nth-of-type(5) {
-                grid-column: 1 / 3;
-              }
-            }
-            p {
-              margin-bottom: 0;
-              display: block;
-              margin: auto;
             }
           }
         }
@@ -155,7 +139,7 @@
           text-align: center;      
           justify-content: center;    
           h1{
-            color: var(--color-neutral-03);
+            color: var(--color-primary-fashion-fuchsia);
             margin-bottom: 0;
             @include respond-to("<=s") {
               font-size: 34px;
@@ -183,5 +167,73 @@
         }
       }
     }
+  }
+  &__our-technology {
+    &__title {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+      background-color: var(--color-neutral-10);
+      @include respond-to("<=s") {
+        padding-top: var(--column-space-xl);
+        padding-bottom: var(--f-gutter);
+      }
+      .content {
+        .box {
+          text-align: center;
+          @include respond-to("<=s") {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+          h1 {
+            color: var(--color-neutral-03);
+            @include respond-to("<=s") {
+              font-size: 34px;
+              line-height: 40.8px;
+            }
+          }
+        }
+      }
+    }
+    &__cards {
+      padding-top: var(--column-space-l);
+      padding-bottom: 120px;
+      background-color: var(--color-neutral-10);
+      gap: var(--f-gutter-l);
+      @include respond-to("<=m") {
+        padding-top: var(--f-gutter);
+      }
+      .content {
+        .box {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 0 var(--f-gutter-l);
+          gap: var(--f-gutter-l);
+          @include respond-to("<=m") {
+            grid-template-columns: 1fr 1fr;
+            padding: var(--f-gutter);
+            @include respond-to("<=s") {
+              grid-template-columns: 1fr
+            }
+          }
+          .home {
+            &__our-services {
+              &__cards {
+                &__grid-content {
+                    background-color: var(--color-neutral-10);
+                    p:nth-of-type(2) {
+                      @include respond-to("<=l") {
+                        height: 112px;
+                        @include respond-to("<=m") {
+                          height: auto;
+                        }
+                      }
+                    }
+                }
+              }
+            }
+          }          
+        }
+      }
+    }    
   }
 }
