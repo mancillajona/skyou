@@ -72,6 +72,12 @@
         strong {
           font-weight: bolder;
         }
+        p:nth-of-type(1) {
+          height: 87px;
+          @include respond-to("<=m") {
+            height: auto;
+          }
+        }
       }
     }
   }
