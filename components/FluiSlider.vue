@@ -10,6 +10,7 @@
           height="700"
           controls
           autoplay
+          poster="./img/skyou-video-cover.jpg"
         ></video>
       </li>
       <li class="flui-slider__items__item">
@@ -246,9 +247,16 @@ export default {
         } 
                
       }
-      video::-webkit-media-controls-panel {
-        padding-bottom: var(--f-gutter-l);
-      }      
+      video {
+        &::-webkit-media-controls-panel {
+          padding-bottom: var(--f-gutter-l);
+          -webkit-padding-bottom: var(--f-gutter-l);
+        } 
+        &::-moz-media-controls-panel {
+          padding-bottom: var(--f-gutter-l);
+          -webkit-padding-bottom: var(--f-gutter-l);
+        }
+      }     
     }
   }
   &__controls {
