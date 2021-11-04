@@ -85,8 +85,6 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 </template>
 
-<btn-external label="Watch video" type="secondary" display="full" url=""/>
-
 </block>
 
 <block>
@@ -98,8 +96,6 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 ![customization-image](./img/customization-image.png)
 
 </template>
-
-<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
@@ -113,8 +109,6 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 </template>
 
-<btn-external label="Watch video" type="secondary" display="full" url=""/>
-
 </block>
 
 <block>
@@ -126,8 +120,6 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 ![card-iamge](./img/backpack-card.png)
 
 </template>
-
-<btn-external label="Watch video" type="secondary" display="full" url=""/>
 
 </block>
 
