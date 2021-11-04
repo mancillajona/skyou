@@ -240,6 +240,7 @@ export default {
         object-fit: cover;
       }
       video {
+        object-fit: cover;
         @include respond-to("<=s") {
           height: var(--flui-slider-height-mobile);
         }        
