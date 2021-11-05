@@ -177,7 +177,7 @@ sales@skyou.com
 
 ![image-location-address](./img/icon-location-address--blue.svg)
 
-2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA
+[2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA](https://goo.gl/maps/mketr9xo5rWiPiNZ7)
 
 </block>
 
