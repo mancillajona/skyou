@@ -51,10 +51,9 @@
                   src="../assets/img/icon-location-address.svg"
                   alt="location"
                 />
-                <p>
-                  2364 Paseo de las Americas, Unit 104-1541, San Diego, CA
-                  92154, USA
-                </p>
+                <a href="https://goo.gl/maps/mketr9xo5rWiPiNZ7" target="_blank">
+                  2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA
+                </a>
               </div>
             </div>
           </div>
@@ -227,10 +226,12 @@ export default {
         }
         &__location {
           a {
-            text-align: center;
             @include respond-to(">=l") {
               width: 90%;
-            }
+            }            
+            @include respond-to("<=m") {
+              text-align: center;
+            }                        
           }
         }
         p {
