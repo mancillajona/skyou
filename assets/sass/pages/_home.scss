@@ -77,7 +77,10 @@
           display: grid;
           gap: 10px;
           text-align: center;      
-          justify-content: center;    
+          justify-content: center;  
+          @include respond-to("<=m") {
+            padding-top: var(--column-space-xl);
+          }  
           h1{
             color: var(--color-neutral-03);
             margin-bottom: 0;
@@ -105,6 +108,10 @@
       padding-top: var(--column-space-l);
       padding-bottom: var(--column-space-xxl);
       background-color: var(--color-neutral-10);
+      @include respond-to("<=m") {
+        padding-top: var(--f-gutter);
+        padding-bottom: var(--column-space-xl);
+      }
       gap: var(--f-gutter-l);
       .content {
         .box {
@@ -160,8 +167,11 @@
     }
     &__time-line {
       padding-top: var(--column-space-l);
-      padding-bottom: 120px;
+      padding-bottom: var(--column-space-xxl);
       background: var(--color-neutral-10);
+      @include respond-to("<=m") {
+        padding-bottom: 0;
+      }
       .content {
         .box {
         }
