@@ -15,7 +15,7 @@ SKYOU is a full package manufacturing partner for your brand. We manufacture for
 
 <block id="full-package-for-brands__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![backpack](./img/backpack-medium.png)
 
 </block>
 

@@ -17,7 +17,7 @@ We bridge the gap between factories and brands with our innovative 3D design too
 
 <block id="about-us__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![backpack](./img/backpack-medium.png)
 
 </block>
 
@@ -159,7 +159,7 @@ Prior to founding SKYOU we started the first web-based mass customization compan
 
 <block>
 
-![contact email image](./img/icon-mail--blue.svg)
+![image-email](./img/icon-mail--blue.svg)
 
 sales@skyou.com
 
@@ -167,7 +167,7 @@ sales@skyou.com
 
 <block>
 
-![contact phone image](./img/icon-phone--blue.svg)
+![image-contact-phone](./img/icon-phone--blue.svg)
 
 <a href="tel:+1 6197451300">+1 619-745-1300</a>
 
@@ -175,7 +175,7 @@ sales@skyou.com
 
 <block>
 
-![contact location address image](./img/icon-location-address--blue.svg)
+![image-location-address](./img/icon-location-address--blue.svg)
 
 2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA
 
