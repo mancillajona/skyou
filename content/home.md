@@ -356,7 +356,7 @@ Our tool is a pixel to inch representation of what we’ll manufacture for you. 
 
 <template v-slot:grid-image>
 
-![3d-representation-image](./img/laptop.png)
+![3d representation image](./img/laptop.png)
 
 </template>
 
@@ -384,7 +384,7 @@ Design your products using our **3D design tool** and **order in bulk for your b
 
 <template v-slot:grid-image>
 
-![order-in-bulk-image](./img/acuracy-img.png)
+![order in bulk image](./img/acuracy-img.png)
 
 </template>
 
@@ -412,7 +412,7 @@ SKYOU has mastered digital printing for both synthetic and cellulose based fabri
 
 <template v-slot:grid-image>
 
-![cut-sew](./img/cut-sew.png)
+![cut sew](./img/cut-sew.png)
 
 </template>
 
