@@ -169,7 +169,7 @@ sales@skyou.com
 
 ![contact-icon](./img/icon-phone--blue.svg)
 
-+1 619-745-1300
+<a href="tel:+1 6197451300">+1 619-745-1300</a>
 
 </block>
 
