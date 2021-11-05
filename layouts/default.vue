@@ -164,6 +164,10 @@
           img {
             height: 24px;
           }
+          p {
+            margin-bottom: 0;
+            line-height: 18px;
+          }
           @include respond-to('<=m') {
             grid-auto-flow: row;
             justify-content: center;
@@ -180,7 +184,7 @@
         &__location {
           p {
             @include respond-to(">=l") {
-              /* width: 42%; */
+              width: 90%;
             }
           }
         }              
