@@ -19,7 +19,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <block id="shopify-app__hero__image-content">
 
-![Image of backpack](./img/backpack-medium.png)
+![backpack](./img/backpack-medium.png)
 
 </block>
 
@@ -52,7 +52,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <block>
 
-![Image of shopping bag](./img/icon-shopping-bag.svg)
+![shopping bag](./img/icon-shopping-bag.svg)
 
 ### 1. Install the app
 
@@ -62,7 +62,7 @@ You can find the free SKYOU app and install it through the Shopify marketplace
 
 <block>
 
-![Image of 3d cube](./img/icon-3d-cube.svg)
+![3d cube](./img/icon-3d-cube.svg)
 
 ### 2. Design your products
 
@@ -72,7 +72,7 @@ Use our 3D design tool to see exactly what your product will look like, in 3D, b
 
 <block>
 
-![mage of store](./img/icon-store.svg)
+![store](./img/icon-store.svg)
 
 ### 3. Publish to your Shopify store
 
@@ -82,7 +82,7 @@ You don’t have to carry any inventory, SKYOU produces each order as they are p
 
 <block>
 
-![Image of package](./img/icon-package-order.svg)
+![package](./img/icon-package-order.svg)
 
 ### 3. Your orders are sent
 
@@ -123,7 +123,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![Image of laptop](./img/laptop.png)
+![laptop](./img/laptop.png)
 
 </template>
 
@@ -137,7 +137,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![Image of cut sew](./img/cut-sew.png)
+![cut sew](./img/cut-sew.png)
 
 </template>
 
@@ -151,7 +151,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![Image of print technologies](./img/print-technologies.png)
+![print technologies](./img/print-technologies.png)
 
 </template>
 
@@ -165,7 +165,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![Image of shirt](./img/t-shirt.png)
+![shirt](./img/t-shirt.png)
 
 </template>
 
@@ -178,7 +178,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![Image of products](./img/products.png)
+![products](./img/products.png)
 
 <btn type="secondary" url="/products" display="full">View products</btn>
 
