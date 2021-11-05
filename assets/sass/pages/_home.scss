@@ -142,9 +142,12 @@
       .content {
         .box {
           display: grid;
-          gap: 10px;
+          gap: var(--f-gutter);
           text-align: center;      
           justify-content: center;    
+          @include respond-to("<=m") {
+            padding-top: var(--column-space-xl);
+          }
           h1{
             color: var(--color-primary-fashion-fuchsia);
             margin-bottom: 0;
@@ -170,6 +173,7 @@
       padding-bottom: var(--column-space-xxl);
       background: var(--color-neutral-10);
       @include respond-to("<=m") {
+        padding-top: 0;
         padding-bottom: 0;
       }
       .content {
