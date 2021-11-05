@@ -1,9 +1,9 @@
 <template>
   <nuxt-link :to="url" class="products__card__content">
-    <img :src="require(`../assets/img/product.png`)">
+    <img :src="require(`../assets/img/product.png`)" alt="product image">
     <div class="products__card__title-content">
       <h3>{{title}}</h3>
-      <h4>{{price}}</h4>
+      <slot></slot>
     </div>
   </nuxt-link>
 </template>
