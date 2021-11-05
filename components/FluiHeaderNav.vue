@@ -260,6 +260,11 @@ body {
           width: 100%;
           color: var(--flui-header-nav-top-anchor-text-color);
           text-align: center;
+          height: auto;
+          padding: 23px var(--f-gutter);
+          @include respond-to('<=m') {
+            padding: var(--f-gutter);
+          }          
           &:hover {
             color: var(--flui-header-nav-top-anchor-text-color-hover);
           }
@@ -320,6 +325,7 @@ body {
               color: var(--flui-header-nav-dropdown-text-color);
               padding: var(--f-gutter);
               border-radius: var(--flui-header-nav-dropdown-border-radius);
+              min-width: 240px;
               @include respond-to("<=m") {
                color: inherit;     
                justify-content: center;  

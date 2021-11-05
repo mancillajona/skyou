@@ -213,7 +213,7 @@ export default {
     justify-content: center;
     height: 100%;
     &:not(.actions) {
-      a {
+      /* a {
         height: auto;
         padding: 23px var(--f-gutter);
         @include respond-to('<=m') {
@@ -221,7 +221,7 @@ export default {
           text-align: center;
           padding: var(--f-gutter);
         }
-      }
+      } */
     }
     @include respond-to('<=m') {
       display: none;
