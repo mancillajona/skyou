@@ -103,7 +103,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 

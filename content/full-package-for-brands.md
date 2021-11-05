@@ -89,7 +89,7 @@ Development and production timelines are established, and the project begins.
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="full-package-for-brands__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 

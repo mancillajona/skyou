@@ -122,7 +122,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="asi-ppai__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 
