@@ -109,7 +109,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/laptop.png)
+![laptop](./img/laptop.png)
 
 </template>
 
@@ -123,7 +123,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/cut-sew.png)
+![cut sew](./img/cut-sew.png)
 
 </template>
 
@@ -137,7 +137,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/print-technologies.png)
+![printing technologies](./img/print-technologies.png)
 
 </template>
 
@@ -151,7 +151,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/t-shirt.png)
+![image-shirt](./img/t-shirt.png)
 
 </template>
 
@@ -164,7 +164,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/products.png)
+![all-products](./img/products.png)
 
 </template>
 
@@ -178,7 +178,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![backpack](./img/backpack-card.png)
 
 </template>
 
