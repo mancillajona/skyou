@@ -28,7 +28,8 @@
                 </div>
                 <div class="simple-footer__content__contact__location">
                   <img src="../assets/img/icon-location-address.svg" alt="location">
-                  <p>2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA</p>
+                  <!-- <p>2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA</p> -->
+                  <a href="https://goo.gl/maps/mketr9xo5rWiPiNZ7" target="_blank">2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA</a>
                 </div>
               </div>
             </div>
@@ -182,7 +183,8 @@
           }
         }  
         &__location {
-          p {
+          a {
+            text-align: center;
             @include respond-to(">=l") {
               width: 90%;
             }
