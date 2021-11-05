@@ -21,7 +21,7 @@ If you’ve dealt with a Chinese factory before the experience was likely less t
 
 <block id="asi-ppai__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![backpack](./img/backpack-medium.png)
 
 </block>
 

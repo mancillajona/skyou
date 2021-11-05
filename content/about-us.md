@@ -55,7 +55,7 @@ We eliminate the need for minimums with a mastery of **digital printing, laser c
 
 <block>
 
-![our-story-image](./img/our-story-image.png)
+![image-our-story](./img/our-story-image.png)
 
 </block>
 
