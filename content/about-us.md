@@ -159,7 +159,7 @@ Prior to founding SKYOU we started the first web-based mass customization compan
 
 <block>
 
-![email image](./img/icon-mail--blue.svg)
+![contact email image](./img/icon-mail--blue.svg)
 
 sales@skyou.com
 
@@ -167,7 +167,7 @@ sales@skyou.com
 
 <block>
 
-![phone image](./img/icon-phone--blue.svg)
+![contact phone image](./img/icon-phone--blue.svg)
 
 <a href="tel:+1 6197451300">+1 619-745-1300</a>
 
@@ -175,7 +175,7 @@ sales@skyou.com
 
 <block>
 
-![location address image](./img/icon-location-address--blue.svg)
+![contact location address image](./img/icon-location-address--blue.svg)
 
 2364 Paseo de las Americas, Unit 104-1541, San Diego, CA 92154, USA
 
