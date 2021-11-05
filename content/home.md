@@ -186,6 +186,12 @@ Custom developed patterns and fabrics, innovative digital printing, quality cut 
 
 </template>
 
+<template v-slot:description>
+
+Order as many units as you need.
+
+</template>
+
 </home-what-we-offer-title>
 
 <home-what-we-offer-title>

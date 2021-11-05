@@ -1,5 +1,5 @@
 <template>
-  <a class="btn" :href="url" :class="[type, display]" target="_blank">
+  <a class="btn-external" :href="url" :class="[type, display]" target="_blank">
     {{label}}
   </a>
 </template>
@@ -34,7 +34,7 @@ export default {
   --color-primary-disabled: #99E3FF;
 
 }
-  .btn {
+  .btn-external {
     padding: 11px var(--f-gutter);
     text-decoration: none;
     max-width: fit-content;

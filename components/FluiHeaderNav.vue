@@ -266,7 +266,7 @@ body {
           align-items: center;
           @include respond-to("<=m") {
             justify-content: center;
-            pointer-events: none;
+            /* pointer-events: none; */
             &:hover {
             background-color: transparent;
             }
