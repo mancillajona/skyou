@@ -13,7 +13,7 @@
           <img
             class="flui-header__logo-container__img"
             :src="require(`../assets/img/${logo}`)"
-            alt="Logo"
+            alt="Logo home page"
           />
         </nuxt-link>
       </slot>

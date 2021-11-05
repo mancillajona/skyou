@@ -2,7 +2,7 @@
     <simple-layout>
       <flui-header
           mode="full"
-          logo="logo-horizontal--black.png"
+          logo="skyou-black--horizontal.svg"
           :mainNavigation='[{"title":"Home","to":"/"},{"title":"Products","to":"/products"},{"title":"About Us","to":"/about-us"},{"title":"Our Technology","to":""},{"title":"Our Services","to":""},{"title":"Custom Sourcing","to":"/custom-sourcing"}]'
           :actions='[{"title":"","to":"/"},{"title":"","to":"/"}]'
       />
@@ -12,7 +12,7 @@
           <section class="simple-footer__content">
             <div class="simple-footer__content__info-skyou">
               <div class="simple-footer__content__skyou">
-                <img src="../assets/img/logo-horizontal--white.png" alt="skyou">
+                <img src="../assets/img/skyou-white--horizontal.svg" alt="skyou logo" class="simple-footer__content__skyou--logo">
                 <div class="simple-footer__content__social-media">
                   <a href="https://www.youtube.com/user/SKyouvideos" target="_blank"><img src="../assets/img/icon-social-youtube.svg" alt="youtube"></a>
                 </div>
@@ -124,6 +124,10 @@
       &__skyou {
         display: grid;
         gap: var(--f-gutter);
+        &--logo {
+          width: 150px;
+          height: 44px;          
+        }
         @include respond-to('<=m') {
           justify-content: center;
         }
