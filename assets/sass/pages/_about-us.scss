@@ -49,7 +49,10 @@
   &__info {
     padding-top: var(--column-space-xxl);
     padding-bottom: var(--column-space-xxl);
-
+    @include respond-to("<=m") {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-l);
+    }
     .content {
       .box {
         p {
@@ -165,7 +168,7 @@
   &__our-milestones {
     &__title {
       padding-top: var(--column-space-xxl);
-      padding-bottom: var(--column-space-l);
+      padding-bottom: var(--column-space-xxl);
       background-color: var(--color-neutral-10);
       @include respond-to("<=m") {
         padding: var(--f-gutter);
@@ -197,8 +200,6 @@
       }
     }
     &__time-line {
-      padding-top: var(--column-space-l);
-      padding-bottom: var(--column-space-xxl);
       background: var(--color-neutral-10);
       .content {
         .box {

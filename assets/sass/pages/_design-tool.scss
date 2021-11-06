@@ -41,9 +41,6 @@
   }
   &__subtitle {
     padding-top: var(--column-space-l);
-    @include respond-to("<=s") {
-      padding-top: 0;
-    }
     .content {
       .box {
         h3 {
@@ -53,11 +50,13 @@
             line-height: 22.4px;
           }
         }
+        @include respond-to("<=s") {
+          padding-top: 0;
+        }
       }
     }
   }
   &__content {
-    padding-top: var(--column-space-l);
     padding-bottom: 120px;
     @include respond-to("<=m") {
       padding-top: 0;

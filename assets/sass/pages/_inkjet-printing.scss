@@ -41,9 +41,9 @@
     }
   }
   &__subtitle {
-    padding-top: var(--column-space-l);
+    padding-top: var(--column-space-xxl);
     @include respond-to("<=m") {
-      padding-top: 0;
+      padding-top: var(--column-space-l);
     }
     .content {
       .box {
@@ -54,11 +54,17 @@
             line-height: 22.4px;
           }
         }
+        @include respond-to("<=m") {
+          padding-top: 0;
+        }
       }
     }
   }
   &__options {
-    padding-bottom: 120px;
+    padding-bottom: var(--column-space-xxl);
+    @include respond-to("<=m") {
+      padding-bottom: var(--column-space-l);
+    }
     .content {
       .box {
         display: grid;
@@ -86,6 +92,9 @@
       padding-top: var(--column-space-xxl);
       padding-bottom: var(--column-space-l);
       background-color: var(--color-neutral-10);
+      @include respond-to("<=m") {
+        padding-top: var(--column-space-l);
+      }
       .content {
         .box {
           display: grid;
