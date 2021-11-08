@@ -3,17 +3,11 @@ title: Products
 description:
 ---
 
-<columns mode="normal" number="2" number-m="1" number-s="1" id="products__title">
+<columns mode="normal" number="1" number-m="1" number-s="1" id="products__title">
 
 <block>
 
 # Products
-
-</block>
-
-<block id="products__title__action-buttons">
-
-<btn type="secondary" url="">Download Catalog</btn>
 
 </block>
 
@@ -50,25 +44,25 @@ description:
 
 <block>
 
-<products-card title="Hoodies and Sweatshirts" url="/category"/>
+<products-card title="Hoodies and Sweatshirts" url="/category" image="hoodies-sweatshirts-1.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Shirts" url="/category"/>
+<products-card title="Shirts" url="/category" image="hoodies-sweatshirts-2.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Tank Tops" url="/category"/>
+<products-card title="Tank Tops" url="/category" image="hoodies-sweatshirts-3.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Bottoms" url="/category"/>
+<products-card title="Bottoms" url="/category" image="hoodies-sweatshirts-4.jpg"/>
 
 </block>
 
@@ -106,19 +100,19 @@ description:
 
 <block>
 
-<products-card title="Laptop Sleeves" url="/category"/>
+<products-card title="Laptop Sleeves" url="/category" image="hoodies-sweatshirts-5.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="iPhone Cases" url="/category"/>
+<products-card title="iPhone Cases" url="/category" image="hoodies-sweatshirts-6.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Samsung Galaxy Cases" url="/category"/>
+<products-card title="Samsung Galaxy Cases" url="/category" image="hoodies-sweatshirts-7.jpg"/>
 
 </block>
 
@@ -155,19 +149,19 @@ description:
 
 <block>
 
-<products-card title="Backpacks" url="/category"/>
+<products-card title="Backpacks" url="/category" image="hoodies-sweatshirts-8.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Lunchbox" url="/category"/>
+<products-card title="Lunchbox" url="/category" image="hoodies-sweatshirts-9.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Pencil Case" url="/category"/>
+<products-card title="Pencil Case" url="/category" image="hoodies-sweatshirts-10.jpg"/>
 
 </block>
 
@@ -204,13 +198,13 @@ description:
 
 <block>
 
-<products-card title="Body Pillow" url="/category"/>
+<products-card title="Body Pillow" url="/category" image="products-home-1.jpg"/>
 
 </block>
 
 <block>
 
-<products-card title="Poster" url="/category"/>
+<products-card title="Poster" url="/category" image="products-home-2.jpg"/>
 
 </block>
 

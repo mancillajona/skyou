@@ -3,34 +3,10 @@
     padding-top: var(--column-space-l);
     padding-bottom: var(--column-space-l);
     gap: var(--f-gutter);
-    &__action-buttons {
-      .content {
-        .box {
-          display: grid;
-          grid-auto-flow: column;
-          gap: var(--f-gutter);
-          align-content: center;
-          justify-content: end;
-          @include respond-to("<=m") {
-            justify-content: start;
-            .btn {
-              max-width: max-content;
-            }
-            @include respond-to("<=s") {
-              justify-content: unset;
-            }
-          }
-          .btn {
-            max-width: 100%;
-            height: min-content;
-            text-align: center;
-          }
-        }
-      }
-    }
   }
   &__subtitle {
     padding-top: var(--column-space-l);
+    background-color: var(--color-neutral-10);
     .content {
       .box {
         h2 {
@@ -47,5 +23,6 @@
 
   &__categories {
     padding-bottom: var(--column-space-l);
+    background-color: var(--color-neutral-10);
   }
 }

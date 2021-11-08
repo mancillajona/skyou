@@ -1,9 +1,9 @@
 <template>
   <nuxt-link :to="url" class="products__card__content">
-    <img :src="require(`../assets/img/product.png`)">
+    <img :src="require(`../static/img/${image}`)" :alt="image">
     <div class="products__card__title-content">
       <h3>{{title}}</h3>
-      <h4>{{price}}</h4>
+      <h4>{{subtitle}}</h4>
     </div>
   </nuxt-link>
 </template>
@@ -11,7 +11,7 @@
 <script>
 export default {
   props: {
-    imageCard: {
+    image: {
       type: String,
       required: false,
     },
@@ -23,7 +23,7 @@ export default {
       type: String,
       required: false,
     },
-    price: {
+    subtitle: {
       type: String,
       required: false,
     }

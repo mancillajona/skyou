@@ -54,13 +54,17 @@ export default {
     }
     &.secondary {
       background: var(--color-neutral-08);
-      color: var(--color-neutral-03);
+      color: var(--color-neutral-01);
 
       &:hover {
-        color: var(--color-neutral-01);
+        color: var(--color-primary-fashion-fuchsia);
       }
       &:disabled {
         color: var(--color-neutral-06);
+      }
+
+      &:active {
+        color: var(--color-primary-fashion-fuchsia);
       }
     }
     &.tertiary {

@@ -9,6 +9,7 @@
         <a
           class="flui-header-nav__items__single-item__top-anchor"
           :href="item.to"
+          :class="item.sigleMenu"
         >
           {{ item.title }}
           <svg
@@ -38,10 +39,10 @@
             :key="index"
             class="flui-header-nav__items__single-item__dropdown__single-item"
           >
-            <a
+            <nuxt-link
               class="flui-header-nav__items__single-item__dropdown__single-item__anchor"
-              :href="dropdownItem.to"
-              >{{ dropdownItem.title }}</a
+              :to="dropdownItem.to"
+              >{{ dropdownItem.title }}</nuxt-link
             >
           </li>
         </ul>
@@ -58,24 +59,30 @@ export default {
         {
           title: "Home",
           to: "/",
+          sigleMenu: "is-single-menu",          
         },
         {
           title: "Products",
           to: "",
           dropDownList: [
             {
-              title: "Overview",
+              title: "Apparel",
               to: "/products",
             },
             {
-              title: "Hoodies and Sweatshirts",
+              title: "Bags",
               to: "/category",
             },
+            {
+              title: "Footwear",
+              to: "/category",
+            },            
           ],
         },
         {
           title: "About Us",
           to: "/about-us",
+          sigleMenu: "is-single-menu",
         },
         {
           title: "Our Technology",
@@ -116,6 +123,7 @@ export default {
         {
           title: "Custom Sourcing",
           to: "/custom-sourcing",
+          sigleMenu: "is-single-menu",
         },
       ],
     };
@@ -195,6 +203,7 @@ export default {
   --flui-header-nav-dropdown-box-shadow: 0px 8px 16px rgba(18, 21, 22, 0.12);
   --flui-header-nav-dropdown-text-color: var(--color-neutral-03);
   --flui-header-nav-transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --flui-header-nav-top-anchor-text-color-hover: var(--color-neutral-03);
 }
 
 body {
@@ -219,8 +228,7 @@ body {
       padding-left: 0;
       @include respond-to("<=m") {
         grid-auto-flow: row;
-        gap: 0;
-        justify-content: center;
+        gap: var(--f-gutter-l);
       }
       &__single-item {
         display: grid;
@@ -229,7 +237,6 @@ body {
         position: relative;
         @include respond-to("<=m") {
          width: 100%;
-         justify-content: center;
         }
         &__top-anchor {
           display: grid;
@@ -240,18 +247,25 @@ body {
           width: 100%;
           color: var(--flui-header-nav-top-anchor-text-color);
           text-align: center;
-          /* &:hover {
-            background-color: var(
-              --flui-header-nav-top-anchor-background-color
-            );
-          } */
+          height: auto;
+          padding: 23px var(--f-gutter);
+          @include respond-to('<=m') {
+            padding: var(--f-gutter);
+          }          
+          &:hover {
+            color: var(--flui-header-nav-top-anchor-text-color-hover);
+          }
           align-items: center;
           @include respond-to("<=m") {
-            justify-content: center;
-            pointer-events: none;
+            justify-content: center;            
             &:hover {
             background-color: transparent;
-          }
+            }
+            &:not(.is-single-menu) {
+              color: var(--color-neutral-06);
+              font-weight: bolder;
+              pointer-events: none;
+            }
           }
           &__chevron {
             transition: var(--flui-header-nav-transition);
@@ -262,6 +276,11 @@ body {
               transform: rotate(-180deg);
             }
           }
+          &:active {
+            @include respond-to("<=m") {
+              background-color: var(--color-neutral-09);
+            }                 
+          }          
         }
         &__dropdown {
           position: absolute;
@@ -298,16 +317,25 @@ body {
               color: var(--flui-header-nav-dropdown-text-color);
               padding: var(--f-gutter);
               border-radius: var(--flui-header-nav-dropdown-border-radius);
+              min-width: 240px;
               @include respond-to("<=m") {
                color: inherit;     
                justify-content: center;  
-               color: var(--color-neutral-03);
+               color: var(--color-neutral-01);
                width: 100%;
               }
               &:hover {
                 background-color: var(--color-neutral-09);
                 color: var(--color-neutral-01);
+                @include respond-to("<=m") {
+                  background-color: unset;
+                }
               }
+              &:active {
+                @include respond-to("<=m") {
+                  background-color: var(--color-neutral-09);
+                }                 
+              }                
             }
           }
         }

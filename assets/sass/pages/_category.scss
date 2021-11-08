@@ -10,4 +10,8 @@
       }
     }
   }
+  &__items {
+    background-color: var(--color-neutral-10);
+    padding-bottom: var(--column-space-l);
+  }
 }

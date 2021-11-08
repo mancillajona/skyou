@@ -41,8 +41,12 @@
     }
   }
   &__options {
-    padding-top: var(--column-space-l);
+    padding-top: var(--column-space-xxl);
     padding-bottom: 120px;
+    @include respond-to("<=m")  {
+      padding-top: var(--column-space-l);
+      padding-bottom: var(--column-space-xxl);
+    }
     .content {
       .box {
         display: grid;

@@ -15,7 +15,7 @@ SKYOU is a full package manufacturing partner for your brand. We manufacture for
 
 <block id="full-package-for-brands__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![full package hero image](./img/full-package-hero.jpg)
 
 </block>
 
@@ -48,9 +48,7 @@ SKYOU is a full package manufacturing partner for your brand. We manufacture for
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
-
-### Step 1
+![icon-quote-calculator](./img/icon-quote-calculator.svg)
 
 ### You request a quote
 
@@ -60,25 +58,19 @@ Reach out to us at sales@skyou.com to quote your project. Quotes for new product
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-3d-cube](./img/icon-3d-cube.svg)
 
-### Step 2
+### 2. We set you up
 
-### We set you up
-
-We'll provide an account that has access to our standard silhouettes through our 3D Design Tool.
-
-We can add your custom patterns to our 3D tool, or help you develop new products based on your technical specifications.
+We'll provide an account that has access to our 3D Design Tool. We can add your custom patterns or help you develop new products.
 
 </block>
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-shirt](./img/icon-shirt.svg)
 
-### Step 3
-
-### Manufacturing begins
+### 3. Manufacturing begins
 
 Development and production timelines are established, and the project begins.
 
@@ -97,7 +89,7 @@ Development and production timelines are established, and the project begins.
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="full-package-for-brands__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 
@@ -117,7 +109,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![3d design tool image](./img/full-package-1.jpg)
 
 </template>
 
@@ -131,7 +123,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![cut sew](./img/full-package-2.jpg)
 
 </template>
 
@@ -145,7 +137,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![printing technologies](./img/full-package-3.jpg)
 
 </template>
 
@@ -159,7 +151,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![image-shirt](./img/full-package-4.jpg)
 
 </template>
 
@@ -172,9 +164,11 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![all-products](./img/full-package-5.jpg)
 
 </template>
+
+<btn type="secondary" url="/products" display="full">View products</btn>
 
 </block>
 
@@ -184,7 +178,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![wealth manufacturing image](./img/full-package-6.jpg)
 
 </template>
 

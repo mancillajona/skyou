@@ -19,7 +19,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <block id="shopify-app__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![shopify app hero image](./img/shopify-app-hero.jpg)
 
 </block>
 
@@ -52,41 +52,41 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <block>
 
-![rectangle](./img/backpack-small.png)
+![shopping bag](./img/icon-shopping-bag.svg)
 
-### Step 1
+### 1. Install the app
 
-### Install the free SKYOU app through the Shopify marketplace
-
-</block>
-
-<block>
-
-![rectangle](./img/backpack-small.png)
-
-### Step 2
-
-### Design your products using our 3d design tool
+You can find the free SKYOU app and install it through the Shopify marketplace
 
 </block>
 
 <block>
 
-![rectangle](./img/backpack-small.png)
+![3d cube](./img/icon-3d-cube.svg)
 
-### Step 3
+### 2. Design your products
 
-### Publish to your Shopify store
+Use our 3D design tool to see exactly what your product will look like, in 3D, before it's made!
 
 </block>
 
 <block>
 
-![rectangle](./img/backpack-small.png)
+![store](./img/icon-store.svg)
 
-### Step 4
+### 3. Publish to your Shopify store
 
-### Our app automatically sends the order to our factory and then shipped to your customer.
+You don’t have to carry any inventory, SKYOU produces each order as they are placed.
+
+</block>
+
+<block>
+
+![package](./img/icon-package-order.svg)
+
+### 3. Your orders are sent
+
+Our app automatically sends the order to our factory, where we manufacture and fulfill to your end customer.
 
 </block>
 
@@ -103,7 +103,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="shopify-app__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 
@@ -115,7 +115,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 
 
-<columns mode="normal" number="3" number-m="1" number-s="1" id="shopify-app__deferentiators__content">
+<columns mode="normal" number="3" number-m="2" number-s="1" id="shopify-app__deferentiators__content">
 
 <block>
 
@@ -123,7 +123,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![3d design tool iamge](./img/shopify-app-1.jpg)
 
 </template>
 
@@ -137,7 +137,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![cut sew](./img/shopify-app-2.jpg)
 
 </template>
 
@@ -151,7 +151,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![print technologies](./img/shopify-app-3.jpg)
 
 </template>
 
@@ -165,7 +165,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![shirt](./img/shopify-app-4.jpg)
 
 </template>
 
@@ -178,7 +178,9 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![products](./img/shopify-app-5.jpg)
+
+<btn type="secondary" url="/products" display="full">View products</btn>
 
 </template>
 
@@ -201,7 +203,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 ## Ready to get Started?
 
-[Install Shopify App](https://apps.shopify.com/skyou)
+[Install SKYOU App](https://apps.shopify.com/skyou)
 
 </block>
 

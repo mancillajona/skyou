@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@lkmx/flare/src/functions/_respond-to.scss";
   .home {
     &__our-services {
       &__cards {
@@ -23,8 +24,9 @@ export default {
             border-radius: 4px;
             text-align: center;
             padding: var(--f-gutter);
+            background-color: var(--color-neutral-10);
             h3 {
-              color: var(--color-neutral-03);
+              color: var(--color-primary-fashion-fuchsia);
             }
             p, h3 {
               margin-bottom: 0;
@@ -32,6 +34,9 @@ export default {
             img {
               width: 100%;
               height: 188px;
+              @include respond-to("<=m") {
+                height: auto;
+              }
             }
             strong {
               font-weight: bolder;
@@ -40,7 +45,7 @@ export default {
               height: 87px;
             }
             &:hover {
-              background: var(--color-neutral-08);
+              background: var(--color-neutral-09);
             }
         }
       }

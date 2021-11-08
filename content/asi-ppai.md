@@ -12,19 +12,16 @@ description: SKYOU is a registered ASI/PPAI supplier. We specialize in all over 
 SKYOU is a registered ASI/PPAI supplier.  We specialize in all over print soft goods, specifically bags and garments.
 
 If you’ve dealt with a Chinese factory before the experience was likely less than ideal.  We’re a bit different as we 
-
-1.Own our factories, we are not a trading company 
-
-2.Are American owned and operated 
-
-3.Have excellent english communication 
+1. Own our factories, we are not a trading company 
+2. Are American owned and operated 
+3. Have excellent english communication 
 
 
 </block>
 
 <block id="asi-ppai__hero__image-content">
 
-![rectangle](./img/backpack-medium.png)
+![asi ppai hero image](./img/asi-ppai-hero.jpg)
 
 </block>
 
@@ -57,11 +54,9 @@ If you’ve dealt with a Chinese factory before the experience was likely less t
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-user](./img/icon-user.svg)
 
-### Step 1
-
-### Register
+### 1. Register
 
 Register for an account here please provide your ASI/PPAI number for verification.  Your account will be verified within 24 hours (M - F). 
 
@@ -69,11 +64,9 @@ Register for an account here please provide your ASI/PPAI number for verificatio
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-3d-cube](./img/icon-3d-cube.svg)
 
-### Step 2
-
-### Design your products
+### 2. Design your products
 
 Design your products using our 3D Design Tool or request mockups at sales@skyou.com, and download high resolution renders from our 3D design tool to share with your clients.
 
@@ -81,11 +74,9 @@ Design your products using our 3D Design Tool or request mockups at sales@skyou.
 
 <block>
 
-![rectangle](./img/backpack-card-small.png)
+![icon-shirt](./img/icon-shirt.svg)
 
-### Step 3
-
-### Place your order
+### 3. Place your order
 
 Place your order directly through your account, or send us a PO at sales@skyou.com.
 A production timeline and updates on your order will be provided by our local office.
@@ -131,7 +122,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <columns mode="normal" number="1" number-m="1" number-s="1" id="asi-ppai__deferentiators__title">
 
-## Diferentiators
+## Differentiators
 
 </columns>
 
@@ -151,7 +142,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![3d design tool image](./img/asi-ppai-1.jpg)
 
 </template>
 
@@ -165,7 +156,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![cut-sew](./img/asi-ppai-2.jpg)
 
 </template>
 
@@ -177,7 +168,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![print-technologies](./img/asi-ppai-3.jpg)
 
 </template>
 
@@ -191,7 +182,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![t-shirt](./img/asi-ppai-4.jpg)
 
 </template>
 
@@ -206,7 +197,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![products-page](./img/asi-ppai-5.jpg)
 
 </template>
 
@@ -218,7 +209,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![wealth manufacturing image](./img/asi-ppai-6.jpg)
 
 </template>
 
