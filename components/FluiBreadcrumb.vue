@@ -1,10 +1,10 @@
 <template>
   <div class="flui-breadcrumb">
-    <a
+    <nuxt-link
       v-for="(breadcrumb, index) in dataBreadcrumb"
       :key="index"
       class="flui-breadcrumb__link"
-      :href="breadcrumb.url"
+      :to="breadcrumb.url"
       >{{ breadcrumb.title }}
       <svg
         class="flui-breadcrumb__link__chevron"
@@ -19,7 +19,7 @@
           fill="#5E7187"
         />
       </svg>
-    </a>
+    </nuxt-link>
   </div>
 </template>
 
