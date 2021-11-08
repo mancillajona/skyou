@@ -15,7 +15,7 @@ We use laser cutting for most short run production, especially when engineered a
 
 <block id="cut-sew__hero__image-content">
 
-![backpack](./img/backpack-medium.png)
+![cut sew hero image](./img/cut-sew-hero.jpg)
 
 </block>
 
@@ -37,7 +37,7 @@ We use laser cutting for most short run production, especially when engineered a
 
 ## Laser Cutting
 
-![Laser cutting image](./img/backpack-medium.png)
+![cut sew 1 image](./img/cut-sew-1.jpg)
 
 We use laser cutting for most short run production, especially when engineered artwork is required. Laser cutting uses an optical eye to read in pre marked pattern lines, and has great accuracy and consistency
 
@@ -47,7 +47,7 @@ We use laser cutting for most short run production, especially when engineered a
 
 ## Sewing
 
-![Sewing image](./img/sew.png)
+![cut sew 2 image](./img/cut-sew-2.jpg)
 
 We have a wide variety of machines and can handle nearly any construction details you desire. Our staff is selected carefully for their skill and experience, and we personally have 20+ years of sewing experience. From sewing out of our USA factory to managing large scale sewing in Asia, our quality is first class.
 

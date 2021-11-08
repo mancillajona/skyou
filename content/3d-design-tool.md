@@ -17,7 +17,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <block id="design-tool__hero__image-content">
 
-![rectangle](./img/laptop--hero.png)
+![3d design tool hero image](./img/3d-design-tool-hero.jpg)
 
 </block>
 
@@ -57,7 +57,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![laptop-image](./img/laptop.png)
+![3d design tool 1 image](./img/3d-design-tool-1.jpg)
 
 </template>
 
@@ -69,7 +69,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![acuracy-image](./img/acuracy-img.png)
+![3d design tool 2 image](./img/3d-design-tool-2.jpg)
 
 </template>
 
@@ -81,7 +81,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![flexibility-image](./img/flexibility-image.png)
+![3d design tool 3 image](./img/3d-design-tool-3.jpg)
 
 </template>
 
@@ -93,7 +93,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![customization-image](./img/customization-image.png)
+![3d design tool 4 image](./img/3d-design-tool-4.jpg)
 
 </template>
 
@@ -105,7 +105,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![effortless-design-image](./img/effortless-design.png)
+![3d design tool 5 image](./img/3d-design-tool-5.jpg)
 
 </template>
 
@@ -117,7 +117,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![3d design tool 6 image](./img/3d-design-tool-6.jpg)
 
 </template>
 

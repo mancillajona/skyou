@@ -19,7 +19,7 @@ When you sell through Shopify you don’t have to carry any inventory, **SKYOU p
 
 <block id="shopify-app__hero__image-content">
 
-![backpack](./img/backpack-medium.png)
+![shopify app hero image](./img/shopify-app-hero.jpg)
 
 </block>
 
@@ -123,7 +123,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![laptop](./img/laptop.png)
+![3d design tool iamge](./img/shopify-app-1.jpg)
 
 </template>
 
@@ -137,7 +137,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![cut sew](./img/cut-sew.png)
+![cut sew](./img/shopify-app-2.jpg)
 
 </template>
 
@@ -151,7 +151,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![print technologies](./img/print-technologies.png)
+![print technologies](./img/shopify-app-3.jpg)
 
 </template>
 
@@ -165,7 +165,7 @@ Our app automatically sends the order to our factory, where we manufacture and f
 
 <template v-slot:image>
 
-![shirt](./img/t-shirt.png)
+![shirt](./img/shopify-app-4.jpg)
 
 </template>
 
@@ -178,7 +178,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![products](./img/products.png)
+![products](./img/shopify-app-5.jpg)
 
 <btn type="secondary" url="/products" display="full">View products</btn>
 

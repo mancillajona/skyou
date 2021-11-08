@@ -17,7 +17,7 @@ We have over 20 years of experience in digital printing and decoration technique
 
 <block id="inkjet-printing__hero__image-content">
 
-![inkjet-printin image](./img/backpack-medium.png)
+![inkjet printing hero image](./img/inkjet-printing-hero.jpg)
 
 </block>
 
@@ -59,7 +59,7 @@ We have over 20 years of experience in digital printing and decoration technique
 
 **Colors come out bright and bold**. The fabric also has **zero hand feel**, and because of the dyed nature, **it never cracks, peels, or fades** with excellent wash fastness.
 
-![reactive-inkjet image](./img/backpack-medium.png)
+![reactive-inkjet image](./img/inkjet-printing-reactive.jpg)
 
 Reactive inkjet uses the same dye that makes your black t-shirt black, in a highly refined form. This dye solution is printed through an inkjet head directly to the pre-treated surface of the cotton fabric and the cotton fabric is dyed by exposing the printed fabric to steam, and then the excess dye is washed out during the garment washing cycle. Finally the fabric is stentered to avoid any distortion and to heat set the fabric.
 
@@ -75,7 +75,7 @@ We use reactive inkjet printing for all of our cotton/cellulose-based fabrics.
 
 Sublimation has a wide color gamut, is great **for bold and bright prints,** has **zero hand feel, and never cracks, peels, or fades.**
 
-![sublimation image](./img/backpack-medium.png)
+![sublimation image](./img/inkjet-printing-sublimation.jpg)
 
 Sublimation inks are printed from an inkjet head onto a roll of transfer paper. The paper is then placed on top of the fabric while heat and pressure are applied. The ink turns into a gas and dyes to the fibers permanently. 
 
@@ -148,7 +148,7 @@ This fabric is made from post consumer waste plastic.  The plastic is chipped do
 
 <block  id="inkjet-printing__stock__options__image">
 
-![backpack-medium](./img/backpack-medium.png)
+![inkjet printing shirts image](./img/inkjet-printing-shirts.jpg)
 
 </block>
 
@@ -158,7 +158,7 @@ This fabric is made from post consumer waste plastic.  The plastic is chipped do
 
 <block  id="inkjet-printing__stock__options__image">
 
-![backpack-medium](./img/backpack-medium.png)
+![inkjet printing hoodies image](./img/inkjet-printing-hoodies.jpg)
 
 </block>
 
@@ -227,7 +227,7 @@ This fabric has a peached surface and a bit of stretch.  A good alternative to c
 
 <block  id="inkjet-printing__stock__options__image">
 
-![backpack-medium](./img/backpack-medium.png)
+![inkjet printing button up image](./img/inkjet-printing-button-up.jpg)
 
 </block>
 
@@ -235,7 +235,7 @@ This fabric has a peached surface and a bit of stretch.  A good alternative to c
 
 <block  id="inkjet-printing__stock__options__image">
 
-![backpack-medium](./img/backpack-medium.png)
+![inkjet printing bags image](./img/inkjet-printing-bags.jpg)
 
 </block>
 
@@ -296,7 +296,7 @@ Composed of a soft and durable 4 way stretch jersey, this fabric is perfect for 
 
 <block  id="inkjet-printing__stock__options__image">
 
-![backpack-medium](./img/backpack-medium.png)
+![inkjet printing leggings image](./img/inkjet-printing-leggings.jpg)
 
 </block>
 

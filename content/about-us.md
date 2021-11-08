@@ -17,7 +17,7 @@ We bridge the gap between factories and brands with our innovative 3D design too
 
 <block id="about-us__hero__image-content">
 
-![backpack](./img/backpack-medium.png)
+![About us image](./img/about-us-hero.jpg)
 
 </block>
 
@@ -55,7 +55,7 @@ We eliminate the need for minimums with a mastery of **digital printing, laser c
 
 <block>
 
-![image-our-story](./img/our-story-image.png)
+![Abouts us our story image](./img/about-us-our-story.jpg)
 
 </block>
 

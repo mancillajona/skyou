@@ -51,7 +51,7 @@ description: The SKYOU platform services a few different customer groups, select
 
 <template v-slot:grid-image>
 
-![card](./img/backpack-cards.png)
+![Sell through shopify image](./img/homepage-services-1.jpg)
 
 </template>
 
@@ -79,7 +79,7 @@ Install the **free SKYOU app** through the Shopify marketplace and sell with **n
 
 <template v-slot:grid-image>
 
-![card](./img/backpack-cards.png)
+![Order in bulk image](./img/homepage-services-2.jpg)
 
 </template>
 
@@ -107,7 +107,7 @@ Design your products using our **3D design tool** and **order in bulk for your b
 
 <template v-slot:grid-image>
 
-![card](./img/backpack-cards.png)
+![ASI/SAGE Distributros](./img/homepage-services-3.jpg)
 
 </template>
 
@@ -362,7 +362,7 @@ Our tool is a pixel to inch representation of what we’ll manufacture for you. 
 
 <template v-slot:grid-image>
 
-![3d representation image](./img/laptop.png)
+![3d design tool image](./img/homepage-technology-1.jpg)
 
 </template>
 
@@ -390,7 +390,7 @@ Design your products using our **3D design tool** and **order in bulk for your b
 
 <template v-slot:grid-image>
 
-![order in bulk image](./img/acuracy-img.png)
+![Inkjet printing image](./img/homepage-technology-2.jpg)
 
 </template>
 
@@ -418,7 +418,7 @@ SKYOU has mastered digital printing for both synthetic and cellulose based fabri
 
 <template v-slot:grid-image>
 
-![cut sew](./img/cut-sew.png)
+![cut sew](./img/homepage-technology-3.jpg)
 
 </template>
 

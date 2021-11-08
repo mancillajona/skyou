@@ -7,7 +7,21 @@ description:
 
 <block>
 
-<flui-breadcrumb  message="single-product" :data-breadcrumb='[{"title":"Products","url":"/products"},{"title":"Hoodies and Sweatshirts","url":"/category"},{"title":"Crewneck","url":"/single-product"}]'/>
+<flui-breadcrumb  message="single-product" :data-breadcrumb=
+'[
+  {
+    "title":"Products",
+    "url":"/products"
+  },
+  {
+    "title":"Hoodies and Sweatshirts",
+    "url":"/category"
+  },
+  {
+    "title":"Crewneck",
+    "url":"/single-product"
+  }
+]'/>
 
 </block>
 
@@ -27,7 +41,7 @@ description:
 
 <block>
 
-![single-product-image](./img/single-product.png)
+![single-product-image](./img/product-detail-crewneck.jpg)
 
 </block>
 

@@ -15,7 +15,7 @@ SKYOU is a full package manufacturing partner for your brand. We manufacture for
 
 <block id="full-package-for-brands__hero__image-content">
 
-![backpack](./img/backpack-medium.png)
+![full package hero image](./img/full-package-hero.jpg)
 
 </block>
 
@@ -109,7 +109,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![laptop](./img/laptop.png)
+![3d design tool image](./img/full-package-1.jpg)
 
 </template>
 
@@ -123,7 +123,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![cut sew](./img/cut-sew.png)
+![cut sew](./img/full-package-2.jpg)
 
 </template>
 
@@ -137,7 +137,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![printing technologies](./img/print-technologies.png)
+![printing technologies](./img/full-package-3.jpg)
 
 </template>
 
@@ -151,7 +151,7 @@ Development and production timelines are established, and the project begins.
 
 <template v-slot:image>
 
-![image-shirt](./img/t-shirt.png)
+![image-shirt](./img/full-package-4.jpg)
 
 </template>
 
@@ -164,7 +164,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![all-products](./img/products.png)
+![all-products](./img/full-package-5.jpg)
 
 </template>
 
@@ -178,7 +178,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![backpack](./img/backpack-card.png)
+![wealth manufacturing image](./img/full-package-6.jpg)
 
 </template>
 

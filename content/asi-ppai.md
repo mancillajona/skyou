@@ -21,7 +21,7 @@ If you’ve dealt with a Chinese factory before the experience was likely less t
 
 <block id="asi-ppai__hero__image-content">
 
-![backpack](./img/backpack-medium.png)
+![asi ppai hero image](./img/asi-ppai-hero.jpg)
 
 </block>
 
@@ -142,7 +142,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![laptop](./img/laptop.png)
+![3d design tool image](./img/asi-ppai-1.jpg)
 
 </template>
 
@@ -156,7 +156,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![cut-sew](./img/cut-sew.png)
+![cut-sew](./img/asi-ppai-2.jpg)
 
 </template>
 
@@ -168,7 +168,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![print-technologies](./img/print-technologies.png)
+![print-technologies](./img/asi-ppai-3.jpg)
 
 </template>
 
@@ -182,7 +182,7 @@ A production timeline and updates on your order will be provided by our local of
 
 <template v-slot:image>
 
-![t-shirt](./img/t-shirt.png)
+![t-shirt](./img/asi-ppai-4.jpg)
 
 </template>
 
@@ -197,7 +197,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![products-page](./img/products.png)
+![products-page](./img/asi-ppai-5.jpg)
 
 </template>
 
@@ -209,7 +209,7 @@ We go through extensive fit testing, and quality checks to ensure each product i
 
 <template v-slot:image>
 
-![card-iamge](./img/backpack-card.png)
+![wealth manufacturing image](./img/asi-ppai-6.jpg)
 
 </template>
 

@@ -84,8 +84,9 @@
     }
   }
   &__image-content {
-    background-image: linear-gradient(rgba(0, 176, 241, 0.8), rgba(0, 176, 241, 0.8)), url(./static/img/image-filter.jpg);
-    background-position: center 34%;
+    // background-image: linear-gradient(rgba(0, 176, 241, 0.8), rgba(0, 176, 241, 0.8)), url(./static/img/image-filter.jpg);
+    background-image: url(./static/img/about-us-banner.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     .content {
