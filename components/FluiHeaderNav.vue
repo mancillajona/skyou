@@ -9,7 +9,7 @@
         <a
           class="flui-header-nav__items__single-item__top-anchor"
           :href="item.to"
-          :class="classes"
+          :class="item.sigleMenu"
         >
           {{ item.title }}
           <svg
@@ -59,7 +59,7 @@ export default {
         {
           title: "Home",
           to: "/",
-          isSigleMenu: true,
+          sigleMenu: "is-single-menu",          
         },
         {
           title: "Products",
@@ -82,7 +82,7 @@ export default {
         {
           title: "About Us",
           to: "/about-us",
-          isSigleMenu: true,
+          sigleMenu: "is-single-menu",
         },
         {
           title: "Our Technology",
@@ -123,23 +123,10 @@ export default {
         {
           title: "Custom Sourcing",
           to: "/custom-sourcing",
-          isSigleMenu: true,
+          sigleMenu: "is-single-menu",
         },
       ],
     };
-  },
-  props: {
-    isSigleMenu: {
-      type: Boolean,
-      default: false,
-    }
-  },
-   computed: {
-    classes() {
-      return {
-        "is-single-menu": this.isSigleMenu,
-      };
-    },
   },
   methods: {
     setNav() {
@@ -270,14 +257,14 @@ body {
           }
           align-items: center;
           @include respond-to("<=m") {
-            justify-content: center;
-            /* pointer-events: none; */
+            justify-content: center;            
             &:hover {
             background-color: transparent;
             }
             &:not(.is-single-menu) {
               color: var(--color-neutral-06);
               font-weight: bolder;
+              pointer-events: none;
             }
           }
           &__chevron {
