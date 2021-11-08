@@ -276,6 +276,11 @@ body {
               transform: rotate(-180deg);
             }
           }
+          &:active {
+            @include respond-to("<=m") {
+              background-color: var(--color-neutral-09);
+            }                 
+          }          
         }
         &__dropdown {
           position: absolute;
@@ -322,7 +327,15 @@ body {
               &:hover {
                 background-color: var(--color-neutral-09);
                 color: var(--color-neutral-01);
+                @include respond-to("<=m") {
+                  background-color: unset;
+                }
               }
+              &:active {
+                @include respond-to("<=m") {
+                  background-color: var(--color-neutral-09);
+                }                 
+              }                
             }
           }
         }
