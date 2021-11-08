@@ -105,27 +105,27 @@
 
 <script>
 export default {
-  methods: {
-    checkForEmptyAnchors() {
-      const getEmptyAnchors = document.querySelectorAll('[aria-hidden="true"]');
-      getEmptyAnchors.forEach(emp => {
-        emp.remove()
-      })
-    }
-  },
-  mounted() {
-    this.checkForEmptyAnchors();
-  },
-  updated() {
-    this.checkForEmptyAnchors();
-  },
-  watch: {
-      $route() {
-        setTimeout(() => {
-          this.checkForEmptyAnchors();
-        }, 500)
-      },
-    },
+  // methods: {
+  //   checkForEmptyAnchors() {
+  //     const getEmptyAnchors = document.querySelectorAll('[aria-hidden="true"]');
+  //     getEmptyAnchors.forEach(emp => {
+  //       emp.remove()
+  //     })
+  //   }
+  // },
+  // mounted() {
+  //   this.checkForEmptyAnchors();
+  // },
+  // updated() {
+  //   this.checkForEmptyAnchors();
+  // },
+  // watch: {
+  //     $route() {
+  //       setTimeout(() => {
+  //         this.checkForEmptyAnchors();
+  //       }, 500)
+  //     },
+  //   },
 };
 </script>
 
