@@ -77,7 +77,7 @@ SKYOU has developed and patented an industry leading browser based 3D Design Too
 
 <block>
 
-<card title="Flexibility" subtitle="Print on all surfaces of every product for a fixed price, included branding. Print on the neck of every garment you design." />
+<card title="Flexibility" subtitle="Print on all surfaces of every product for a fixed price, including tagless neck labels for each garment." />
 
 <template v-slot:image>
 
