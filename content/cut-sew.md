@@ -9,7 +9,7 @@ description: We use laser cutting for most short run production, especially when
 
 # Cut / Sew
 
-We use laser cutting for most short run production, especially when engineered artwork is required. Laser cutting uses an optical eye to read in pre marked pattern lines, and has great accuracy and consistency
+Every SKYOU product is printed to a white roll of fabric using dyes, laser cut, and then sewn together. This allows us to make amazing retail quality products that represent your brand the way you want.
 
 </block>
 
