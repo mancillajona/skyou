@@ -182,10 +182,25 @@ export default {
         });
       });
     },
+    async loadCategories() {
+      var categories = await this.$csapi().categories.list();
+      console.log('Categories loaded ', categories);
+    }
+    ,
+    async loadTestProduct() {
+      const id = 6;
+      var product = await this.$csapi().products.getDetails(5);
+      console.log('Product  loaded ', product);
+    }
   },
   mounted() {
     this.setNav();
+    this.loadCategories();
+    this.loadTestProduct();
   },
+  asyncData({ $csapi }) {
+      $csapi('asyncData')
+  }
 };
 </script>
 

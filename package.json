@@ -11,6 +11,7 @@
   "dependencies": {
     "@lkmx/flare": "0.3.25",
     "@nuxt/content": "^1.14.0",
+    "axios": "^0.24.0",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7"
   },
