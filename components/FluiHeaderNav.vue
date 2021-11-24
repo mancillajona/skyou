@@ -185,16 +185,20 @@ export default {
     async loadCategories() {
       var categories = await this.$csapi().categories.list();
       console.log('Categories loaded ', categories);
-    }
-    ,
+    },
     async loadTestProduct() {
       const id = 6;
       var product = await this.$csapi().products.getDetails(5);
       console.log('Product  loaded ', product);
+    },
+    async testLogin() {
+      var token = await this.$csapi().auth.login();
+      console.log('Token ', token);
     }
   },
   mounted() {
     this.setNav();
+    this.testLogin();
     this.loadCategories();
     this.loadTestProduct();
   },

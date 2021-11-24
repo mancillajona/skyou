@@ -14,7 +14,10 @@ const AXIOS_BASIC_AUTH = {
     }
 };
 const AXIOS_BASIC_AUT = {};
-
+const CREDENTIALS = {
+    "username": "adminecom@skyou.com",
+    "password": "test1234"
+};
 const axiosInstance = axios.create({
     withCredentials: true
 });
@@ -22,6 +25,12 @@ const axiosInstance = axios.create({
 
 //======================== SERVICE ========================//
 const csapi = {
+    auth: {
+        login: async() => {
+            let result = (await axiosInstance.post(`${API_HOST}/auth/login`, CREDENTIALS, AXIOS_BASIC_AUT)).data;
+            return result;
+        }
+    },
     products: {
         getDetails: async( productId ) => {
             let result = (await axiosInstance.get(`${API_HOST}/product/center?productId=${productId}`, AXIOS_BASIC_AUT)).data;
