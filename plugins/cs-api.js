@@ -4,43 +4,51 @@ import axios from 'axios';
 
 //======================== AXIOS ========================//
 const API_HOST = 'https://csqa.skyounet.com';
-const API_AUTH_USERNAME = 'adminecom@skyou.com';
-const API_AUTH_PASSWORD = 'test1234';
 
-const AXIOS_BASIC_AUTH = {
-    auth: {
-        username: API_AUTH_USERNAME,
-        password: API_AUTH_PASSWORD
-    }
-};
-const AXIOS_BASIC_AUT = {};
-const CREDENTIALS = {
-    "username": "adminecom@skyou.com",
-    "password": "test1234"
-};
+const TOKEN_KEY = 'API_AUTH_TOKEN';
+
 const axiosInstance = axios.create({
     withCredentials: true
 });
 
+function getAuthConfig() {
+    return {
+        headers: {
+            'x-auth-token': localStorage.getItem(TOKEN_KEY)
+        }
+    }
+}
 
 //======================== SERVICE ========================//
 const csapi = {
     auth: {
-        login: async() => {
-            let result = (await axiosInstance.post(`${API_HOST}/auth/login`, CREDENTIALS, AXIOS_BASIC_AUT)).data;
+        login: async({username, password}) => {
+            let result = (await axiosInstance.post(`${API_HOST}/auth/login`, { username, password })).data;
+            localStorage.setItem( TOKEN_KEY, result.token );
+            return result.token;
+        },
+        logout: async() => {
+            await axiosInstance.post(`${API_HOST}/auth/logout`, {}, getAuthConfig());
+        },
+        getMe: async () => {
+            let result = (await axiosInstance.get(`${API_HOST}/auth/me`, getAuthConfig())).data;
             return result;
-        }
+        },
     },
     products: {
         getDetails: async( productId ) => {
-            let result = (await axiosInstance.get(`${API_HOST}/product/center?productId=${productId}`, AXIOS_BASIC_AUT)).data;
+            let result = (await axiosInstance.get(`${API_HOST}/products/item/${productId}`, getAuthConfig())).data;
             return result;
+        },
+        getByCategoryId: async( categoryId ) => {
+            let result = (await axiosInstance.get(`${API_HOST}/products/categories/${categoryId}`, getAuthConfig())).data;
+            return result.products;
         }
     },
     categories: {
         list: async() => {
-            let result = (await axiosInstance.get(`${API_HOST}/admin/pdef/metadata/categories`, AXIOS_BASIC_AUT)).data;
-            return result.productCategories;
+            let result = (await axiosInstance.get(`${API_HOST}/products/categories`, getAuthConfig())).data;
+            return result;
         }
     },
 };
